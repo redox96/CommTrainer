@@ -1,0 +1,420 @@
+BC;"x [R'; U, R' D2 R]"
+BD;"U x [R'; U, R' D2 R]"
+CB;"x [R'; R' D2 R, U]"
+DB;"U x [R'; R' D2 R, U]"
+BF;"[U R'; U2, R' D' R]"
+FB;"[U R'; R' D' R, U2]"
+BG;"[U; U, R' D R]"
+GB;"[U; R' D R, U]"
+BH;[U, R D' R']
+HB;[R D' R', U]
+BI;F l' U' L U l F' L' (lefty Bowtie)
+IB;r U R' U' r' F R F' (Chamaeleon)
+BJ;l' U' L U l F' L' F (lefty Chamaeleon)
+JB;F' r U R' U' r' F R (Bowtie)
+BK;[D: U, R D R']
+KB;[D: R D R', U]
+BL;[U, R D2 R']
+LB;[R D2 R', U]
+BM;"[U R2; D, R' U2 R]"
+MB;[U R: U2, R D R']
+BO;[U, R D R']
+OB;[R D R', U]
+BP;"[U; U, R' D' R]"
+PB;"[U; R' D' R, U]"
+BS;[D': U, R D R']
+SB;[D': R D R', U]
+BT;[D: U, R D' R']
+TB;[D: R D' R', U]
+BU;[L2, sexy]
+UB;[sexy, L2]
+BV;[lexy, R2]
+VB;[R2, lexy]
+BW;[D: lexy, R2]
+WB;[D: R2, lexy]
+BX;[D: L2, sexy]
+XB;[D: sexy, L2]
+NC;[F: U' L' U, R2]
+CN;[F: R', U' L' U]
+ND;[F: U' L' U, R]
+DN;[F: R, U' L' U]
+NF;[F2: U' L' U, R2]
+FN;[F2: R2, U' L' U]
+NG;[D': L, U R U']
+GN;[D': U R U', L]
+NH;[D2: U' L' U, R2]
+HN;[D2: R2, U' L' U]
+NI;[L', U R U']
+IN;[U R U', L']
+NJ;"[R; R D R', U]"
+JN;"[R; U, R D R']"
+NK;[D: U' L' U, R']
+KN;[D: R', U' L' U]
+NL;[D: U' L' U, R2]
+LN;[D: R2, U' L' U]
+NM;[U' L' U, R]
+MN;[R, U' L' U]
+NO;[U' L' U, R']
+ON;[R', U' L' U]
+NP;[U' L' U, R2]
+PN;[R2, U' L' U]
+NS;[L, U R U']
+SN;[U R U', L]
+NT;[D': U' L' U, R2]
+TN;[D': R2, U' L' U]
+NU;[L2, U R U']
+UN;[U R U', L2]
+NV;[D': L2, U R U']
+VN;[D': U R U', L2]
+NW;[D2: L2, U R U']
+WN;[D2: U R U', L2]
+NX;[D: L2, U R U']
+XN;[D: U R U', L2]
+QC;[R' D': U2, R' D R]
+CQ;[R' D': R' D R, U2]
+QD;"[l U'; R' D R, U2]"
+DQ;"[l U'; U2, R' D R]"
+QF;[R' F: R' D' R, U2]
+FQ;[R' F: U2, R' D' R]
+QG;"[R'; U2, R' D R]"
+GQ;"[R'; R' D R, U2]"
+QH;"[R': L' D' L, U2]<br>[R' U; R D' R', U2]"
+HQ;"[R': U2, L' D' L]<br>R' U'; R D' R, U2"
+QI;"[x' R; U2, R D2 R']"
+IQ;"[x' R; R D2 R', U2]"
+QJ;"[R; R2 D R2 D' R2, U]"
+JQ;"[R; U, R2 D R2 D' R2]"
+QK;"[D' R'; U2, R' D R]"
+KQ;"[D' R'; R' D R, U2]"
+QL;"[x' R; U2, R D' R']"
+LQ;"[x' R; R D' R', U2]"
+QM;"[R'; U2, R' D' R]"
+MQ;"[R'; R' D' R, U2]"
+QO;"[D2 R'; U2, R' D R]"
+OQ;"[D2 R'; R' D R, U2]"
+QP;"[R' U'; U2, R D R']"
+PQ;"[R' U'; R D R', U2]"
+QS;"[R'; U2, R' D2 R]"
+SQ;"[R'; R' D2 R, U2]"
+QT;"[x' R; U2, R D R']"
+TQ;"[x' R; R D R', U2]"
+QU;"<div>[D R' D': U2, R' D' R]</div>[D R' D U'; U2, R D' R']"
+UQ;"<div>[D R' D': R' D' R, U2]</div>[D R' D U'; R D' R', U2]"
+QV;"[R' D': U2, R' D' R]<div>[R' D U'; U2, R D' R']</div>"
+VQ;"[R' D': R' D' R, U2]<div>[R' D U'; R D' R', U2]</div>"
+QW;"[R2 D'; R' D R, U2]"
+WQ;"[R2 D'; U2, R' D R]"
+QX;"[U2 R; R D' R', U2]"
+XQ;"[U2 R; U2, R D' R']"
+BN;R' F': sune/sune
+NQ;R' F': sune/sune
+QB;R' F': sune/sune
+BQ;R' F': antisune/antisune
+QN;R' F': antisune/antisune
+NB;R' F': antisune/antisune
+CM;F': antisune/antisune
+MJ;F': antisune/antisune
+JC;F': antisune/antisune
+CJ;F': sune/sune
+JM;F': sune/sune
+MC;F': sune/sune
+DF;sune/sune
+FI;sune/sune
+ID;sune/sune
+DI;antisune/antisune
+IF;antisune/antisune
+FD;antisune/antisune
+LU;F: antisune/antisune
+UG;F: antisune/antisune
+GL;F: antisune/antisune
+LG;F: sune/sune
+GU;F: sune/sune
+UL;F: sune/sune
+KV;F2: sune/sune
+VP;F2: sune/sune
+PK;F2: sune/sune
+KP;F2: antisune/antisune
+PV;F2: antisune/antisune
+VK;F2: antisune/antisune
+OW;R2 F': sune/sune
+WT;R2 F': sune/sune
+TO;R2 F': sune/sune
+OT;R2 F': antisune/antisune
+TW;R2 F': antisune/antisune
+WO;R2 F': antisune/antisune
+HS;D F: sune/sune
+SX;D F: sune/sune
+XH;D F: sune/sune
+XS;D F: antisune/antisune
+SH;D F: antisune/antisune
+HX;D F: antisune/antisune
+CD;"[R' D' U'; R' D R, U']"
+DC;"[R' D' U'; U', R' D R]"
+CI;"<div>[l': R' D2 R, U2]</div>[x' R2; U2, R D2 R']"
+IC;"[l': U2, R' D2 R]<div>[x' R2; R D2 R', U2]</div>"
+CK;[D': U2, R' D R]
+KC;[D': R' D R, U2]
+CL;[D: U2, R' D' R]
+LC;[D: R' D' R, U2]
+CU;"<div>[R F' R' U; R D R', U2]</div>"
+UC;"[R F' R' U; U2, R D R']"
+CV;"<div>[R2; R2 D R2 D' R2, U]</div>"
+VC;"[R2; U, R2 D R2 D' R2]<div>[D R D' R'; R' D R, U2]</div>"
+CW;"[R D' R'; U2, R' D R]"
+WC;"[R D' R'; R' D R, U2]"
+CX;"[R' D' R; D, R U2 R']"
+XC;"[R' D' R; R U2 R', D]"
+CO;"[U'; U2, R D R']"
+OC;"[U'; R D R', U2]"
+CP;[U2, R' D' R]
+PC;[R' D' R, U2]
+CH;"[U'; U2, R D' R']"
+HC;"[U'; R D' R', U2]"
+CF;[F: R' D' R, U2]
+FC;[F: U2, R' D' R]
+CG;[U2, R' D R]
+GC;[R' D R, U2]
+CS;"[U D'; R D R', U2]"
+SC;"[U D'; U2, R D R']"
+CT;[D': U2, R' D' R]
+TC;[D': R' D' R, U2]
+MD;"U: lefty Bowtie<div>[R' U'; R' D' R, U']</div>"
+DM;"U: chamaeleon<div>[R' U'; U', R' D' R]</div>"
+MI;"[U' R'; U', R' D' R]"
+IM;"[U' R'; R' D' R, U']"
+MK;"[U' D' R'; U', R' D R]"
+KM;"[U' D' R'; R' D R, U']"
+ML;"<div>[R' D; R' U R, D]</div>[D R; U' L' U, R]"
+LM;"[R' D; D, R' U R]<div>[D R; R, U' L' U]</div>"
+MU;"[D R'; R' U R, D]"
+UM;"[D R'; D, R' U R]"
+MV;"[R'; D, R' U R]"
+VM;"[R'; R' U R, D]"
+MW;"[D' R'; D, R' U R]"
+WM;"[D' R'; R' U R, D]"
+MX;"[D2 R'; D, R' U R]"
+XM;"[D2 R'; R' U R, D]"
+MO;"<div>[U R2; U', R' D' R]</div>[R; U' L' U, R2]"
+OM;"[U R2; R' D' R, U']<div>[R; R2, U' L' U]</div>"
+MP;"<div>[U R U'; U', R D R']</div>[R; U' L' U, R]"
+PM;"<div>[U R U'; R D R', U']</div>[R; R, U' L' U]"
+MH;"[R' D; R' U R, D2]"
+HM;"[R' D; D2, R' U R]"
+MF;"[R U R' D'; U2, R' D R]"
+FM;"[R U R' D'; R' D R, U2]"
+MG;"[U' R'; U', R' D R]"
+GM;"[U' R'; R' D R, U']"
+MS;"[U' D R'; U', R' D R]"
+SM;"[U' D R'; R' D R, U']"
+MT;"[R' U; R' D' R, U]"
+TM;"[R' U; U, R' D' R]"
+JD;"<div>[l' U; U2, R D' R']</div><div>[L'; U2, L' D' L]</div>"
+DJ;"<div>[l' U; R D' R', U2]</div>[L'; L' D' L, U2]"
+JI;<div>[z: R' D' R, U]</div>[U' R' U, L]
+IJ;<div>[z: U, R' D' R]</div>[L, U' R' U]
+JF;"[U' R; R D R', U2]"
+FJ;"[U' R; U2, R D R']"
+JX;[D U R': R' D R, U']
+XJ;[D U R': U', R' D R]
+JH;"[R; U, R D' R]"
+HJ;"[R; R D' R, U]"
+JS;[R D': U, R D R']
+SJ;[R D': R D R', U]
+JW;"<div>[R D; U, R D R']</div>[B2, L F' L'] (x')"
+WJ;"<div>[R D; R D R', U]</div>[L F' L', B2] (x/x')"
+JT;"[D R; U, R D' R']"
+TJ;"[D R; R D' R', U]"
+JO;"[R U; U, R' D' R]"
+OJ;"[R U; R' D' R, U]"
+JV;"<div>[U D' R'; R' D R, U']</div><div>[R U R'; U', R' D' R]</div>"
+VJ;"<div>[U D' R'; U', R' D R]</div>[R U R'; R' D' R, U']"
+JP;"[D2 R; U, R D' R']"
+PJ;"[D2 R; R D' R', U]"
+JK;"[U R' U'; R D R', U']<div>[F, R' B2 R]</div>"
+KJ;"<div>[U R' U'; U', R D R']</div>[R' B2 R, F]"
+JU;"<div>[U R'; R' D R, U']</div>[D R' D', L2]"
+UJ;"<div>[U R'; U', R' D R]</div>[L2, D R' D']"
+JL;"[D' R; U, R D' R']"
+LJ;"[D' R; R D' R', U]"
+JG;"[R U; U, R' D R]"
+GJ;"[R U; R' D R, U]"
+DX;"<div>[D' R D' U2; R' D R, U]</div>[U': L2, R' U' R U]"
+XD;"<div>[D' R D' U2; U, R' D R]</div>[U': R' U' R U, L2]"
+DH;"[U; R D' R', U]"
+HD;"[U; U, R D' R']"
+DS;"[D U'; U', R' D R]"
+SD;"[D U'; R' D R, U']"
+DW;"[R D' U2; R' D R, U]<div>[B2, Rw U Rw']</div>"
+WD;"<div>[R D' U2; U, R' D R]</div>[Rw U Rw', B2]"
+DT;"<div>[U D; R D' R', U]</div><div>[R U' D'; U', R' D R]</div>[U', L D2 L']"
+TD;"<div>[U D; U, R D' R']</div><div>[R U' D'; R' D R, U']</div>[L D2 L', U']"
+DO;"[L' D L, U]<div>[U; R D R', U]</div>"
+OD;"[U, L' D L]<div>[U; U, R D R']</div>"
+DV;"<div>[R' D U2; U', R D' R']</div>[x': L' U' L, D2]"
+VD;"<div>[R' D U2; R D' R', U']</div>[x': D2, L' U' L]"
+DP;"[U'; U', R' D' R]"
+PD;"[U'; R' D' R, U']"
+DK;"<div>[D' U'; U', R' D R]</div>[L' D2 L, U]"
+KD;"[D' U'; R' D R, U']<div>[U, L' D2 L]</div>"
+DU;"<div>[D R' D U; R D' R', U]</div>[U: sexy, L2]"
+UD;"[D R' D U; U, R D' R']<div>[U: L2, sexy]</div>"
+DL;"[D U'; U', R' D' R]"
+LD;"[D U'; R' D' R, U']"
+DG;"[U'; U', R' D R]"
+GD;"[U'; R' D R, U']"
+IX;"[U'; L2, U' R' U]"
+XI;"[U'; U' R' U, L2]"
+IH;"[U; U R U', L]<div>[D: U R' U', L']</div>"
+HI;"<div>[U; L, U R U']</div><div>[D: L', U R' U']</div>"
+IS;"<div>[D: L, U' R2 U]</div>[D U; U R U', L2]"
+SI;"<div>[D: U' R2 U, L]</div>[D U; L2, U R U']"
+IW;[R F2 R', B2]
+WI;[B2, R F2 R']
+IT;[U R' U', L']
+TI;[L', U R' U']
+IO;[L, U' R2 U]
+OI;[U' R2 U, L]
+IV;[U R2 U', L']
+VI;[L', U R2 U']
+IP;[L, U' R U]
+PI;[U' R U, L]
+IK;[F2, R' B2 R]
+KI;[R' B2 R, F2]
+IU;[D: U R2 U', L']
+UI;[D: L', U R2 U']
+IL;[z x': R U R', D]
+LI;[z x': D, R U R']
+IG;"[U; U R U', L2]"
+GI;"[U; L2, U R U']"
+FX;[U R': R' D2 R, U2]
+XF;[U R': U2, R' D2 R]
+FH;"[U' R; U2, R D' R']"
+HF;"[U' R; R D' R', U2]"
+FS;"<div>[U' R U; U2, R' D2 R]</div><div>[U R' U; U2, R D' R']</div>[F: U2, R' D2 R]"
+SF;"<div>[U' R U; R' D2 R, U2]</div><div>[U R' U; R D' R', U2]</div>[F: R' D2 R, U2]"
+FW;"<div>[D U R'; R' D2 R, U2]</div><div>[R U R' U'; R D R', U2]</div>[R2 F: U2, R' D' R]"
+WF;"<div>[D U R'; U2, R' D2 R]</div><div>[R U R' U'; U2, R D R']</div>[R2 F: R' D' R, U2]"
+FT;"[D U' R; U2, R D' R']"
+TF;"[D U' R; R D' R', U2]"
+FO;"<div>[U' R U; U2, R' D' R]</div>[F U'; U2, R D R']"
+OF;"<div>[U' R U; R' D' R, U2]</div>[F U'; R D R', U2]"
+FV;"[U D' R'; R' D R, U2]<div>[F: U2, R' D R]</div>"
+VF;"[U D' R'; U2, R' D R]<div>[F: R' D R, U2]</div>"
+FP;"[R' F U'; U2, R D R']"
+PF;"[R' F U'; R D R', U2]"
+FK;"<div>[U R' U; U2, R D R']</div>[x' U; U R' U', L2]"
+KF;"[U R' U; R D R', U2]<div>[x' U; L2, U R' U']</div>"
+FU;"[U R'; R' D R, U2]"
+UF;"[U R'; U2, R' D R]"
+FL;"[U' R; U2, R D2 R']"
+LF;"[U' R; R D2 R', U2]"
+FG;"[U' R U; U2, R' D R]"
+GF;"[U' R U; R' D R, U2]"
+XW;"<div>[U'; U' R2 U, L2]</div>[R U'; U' R U, L2]"
+WX;"<div>[U'; L2, U' R2 U]</div>[R U'; L2, U' R U]"
+XT;"[D2 R'; R' U R, D2]"
+TX;"[D2 R'; D2, R' U R]"
+XO;"<div>[R' D' R; R' U2 R, D']</div>[U R'; U, R' D2 R]"
+OX;"<div>[R' D' R; D', R' U2 R]</div>[U R'; R' D2 R, U]"
+XV;"[R U R'; U', R' D2 R]"
+VX;"[R U R'; R' D2 R, U']"
+XP;[D: U R' U', L2]
+PX;[D: L2, U R' U']
+XK;"[D' R; R U2 R',&nbsp;D']<div>[U'; U' R U, L2]</div>"
+KX;"[D' R; D', R U2 R']<div>[U'; L2, U' R U]</div>"
+XU;[D: U R2 U', L2]
+UX;[D: L2, U R2 U']
+XL;"[z' R; D2, R U R']"
+LX;"[z' R; R U R', D2]"
+XG;"[D' R; R U2 R', D2]"
+GX;"[D' R; D2, R U2 R']"
+HW;"[R2 U'; R D' R', U2]"
+WH;"[R2 U'; U2, R D' R']"
+HT;[D', R' U R]
+TH;[R' U R, D']
+HO;"[R D'; R' U R, D2]"
+OH;"[R D'; D2, R' U R]"
+HV;"[R'; D', R' U R]"
+VH;"[R'; R' U R, D']"
+HP;"[D'; R' U R, D2]"
+PH;"[D'; D2, R' U R]"
+HK;"[R U'; R D' R', U2]"
+KH;"[R U'; U2, R D' R']"
+HU;"[D R'; D2, R' U R]"
+UH;"[D R'; R' U R, D2]"
+HL;"[D'; R' U R, D']"
+LH;"[D'; D', R' U R]"
+HG;[D': L, U R' U']
+GH;[D': U R' U', L]
+SW;"[R; D2, R U2 R']"
+WS;"[R; R U2 R', D2]"
+ST;[U R' U', L]
+TS;[L, U R' U']
+SO;"<div>[D'; D', R U2 R']</div>[U: D', R' U' R]"
+OS;"<div>[D'; R U2 R', D']</div>[U: R' U' R, D']"
+SV;[U R2 U', L]
+VS;[L, U R2 U']
+SP;"[D R' U; R' D R, U]<br>R2 setup"
+PS;"[D R' U; U, R' D R]"
+SK;"[D2, R U2 R']<div>[U D'; R' U' R, D2]</div>"
+KS;"[R U2 R', D2]<div>[U D'; D2, R' U' R]</div>"
+SU;"[U D' R'; R' D2 R, U]"
+US;"[U D' R'; U, R' D2 R]"
+SL;"<div>[F': D2, R U2 R']</div>[D' R D; R' U R, D2]"
+LS;"<div>[F': R U2 R', D2]</div>[D' R D; D2, R' U R]"
+SG;"[D; D, R U2 R']"
+GS;"[D; R U2 R', D]"
+WV;[B2, R F R']
+VW;[R F R', B2]
+WP;[D' R': R' U R, D2]
+PW;[D' R': D2, R' U R]
+WK;[R D': R' D R, U2]
+KW;[R D': U2, R' D R]
+WU;"[R2 D' R' U'; L2, U' R U]"
+UW;"[R2 D' R' U'; U' R U, L2]"
+WL;[B2, R F' R']
+LW;[R F' R', B2]
+WG;"[R; R U2 R', D]"
+GW;"[R; D, R U2 R']"
+TV;"<div>[R' D; U, R D' R']</div>[R2 U R'; R' D' R, U']"
+VT;"<div>[R' D; R D' R', U]</div>[R2 U R'; U', R' D' R]<br />"
+TP;[R' U R, D]
+PT;[D, R' U R]
+TK;"[D R D'; R' U R, D2]"
+KT;"[D R D'; D2, R' U R]"
+TU;[L2, U R' U']
+UT;[U R' U', L2]
+TL;[R' U R, D2]
+LT;[D2, R' U R]
+TG;"[R' U; U, R' D R]"
+GT;"[R' U; R' D R, U]"
+OV;"[D U' R; D2, R U' R']"
+VO;"[D U' R; R U' R', D2]"
+OP;"<div>[D: U R' U', L]</div>[R'; U' L' U, R']"
+PO;"<div>[D: L, U R' U']</div>[R'; R', U' L' U]"
+OK;[D', R U2 R']
+KO;[R U2 R', D']
+OU;"[U R'; R' D R, U]"
+UO;"[U R'; U, R' D R]"
+OL;[F': D', R U2 R']
+LO;[F': R U2 R', D']
+OG;"[D'; R U2 R', D2]"
+GO;"[D'; D2, R U2 R']"
+VU;<div>[R U R', R' D R, U']</div>[L2, U R2 U']
+UV;<div>[R U R', U', R' D R]</div>[U R2 U', L2]
+VL;"[R'; R' U R, D2]"
+LV;"[R'; D2, R' U R]"
+VG;"[R2 U; U, R' D R]"
+GV;"[R2 U; R' D R, U]"
+PU;"[R D R'; D, R' U R]<br>[D R D', L2]"
+UP;"[R D R'; R' U R, D]"
+PL;"[D; R' U R, D]"
+LP;"[D; D, R' U R]"
+PG;"[R U' R'; U', R' D R]"
+GP;"[R U' R'; R' D R, U']"
+KU;"[R D' R' U'; L2, U' R U]"
+UK;"[R D' R' U'; U' R U, L2]"
+KL;"[z R'; U', R' D R]"
+LK;"[z R'; R' D R, U']"
+KG;[R U2 R', D]
+GK;[D, R U2 R']

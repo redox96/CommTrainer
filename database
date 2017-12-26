@@ -1,0 +1,16 @@
+import sqlite3
+
+connection = sqlite3.connect("results_comms.db")
+
+cursor = connection.cursor()
+
+cursor.execute("""CREATE TABLE results_corners (
+    letterpair TEXT, time REAL, count INTEGER, failed INTEGER, last_index INTEGER, weight REAL
+)""")
+
+
+cursor.execute("""INSERT INTO results_corners VALUES (
+    'AA', 2.43, 2, 1, 32, 0.22
+)""")
+
+connection.commit()
