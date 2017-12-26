@@ -9,7 +9,6 @@ from top_bad_list import bad_list, top_list
 from recover_results import recover_results
 from cutoff import cutoff_stats
 from counts2 import count_stats2
-from group_comms import weigh_comms
 from cutoff_motivation import cutoff_motivation
 from load_comms import show_comm
 from topflop_output import topflop_output
@@ -57,11 +56,6 @@ class MyApp(Frame):
                             font=(None,15), indicatoron=0)
             b.pack(side="left", pady=15, padx = 15)
 
-# TODO: Nice representations of the top 5 worst and best comms including times and counts
-  #      self.badfivelabel=Label(self,text="Worst Comms", font=(None,20))
-  #      self.badfivelabel.pack(pady = 5)
-  #      self.topfivelabel=Label(self,text="Best Comms", font=(None,20))
-  #      self.topfivelabel.pack(pady = 5)
         self.successlabel=Label(self,font=(None,30),pady=30, text="Choose Comm Type", fg="Red")
         self.successlabel.pack()
         self.letterpair=Label(self,text="Letterpair", font=(None, 66))
@@ -119,8 +113,6 @@ class MyApp(Frame):
             self.randomletters=StringVar(value = comm_chooser(comms_groups))
             print(self.randomletters.get())
 
-
-            #self.randomletters=StringVar(value=random_LP(self.buffer,self.letters))
             self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
             self.result.set(event.time)
 
@@ -158,14 +150,8 @@ class MyApp(Frame):
             [self.times_new, self.counter] = update_stats(randlet, self.d_time, self.buffer, self.comm_type.get())
             print(self.times_new)
             print(self.counter)
-        #    self.counter = update_stats(randlet, self.d_time, self.buffer, self.comm_type.get())[1]
             self.successlabel.configure(text= [randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
 
-
- #           weigh_comms(self.buffer,self.comm_type.get(),self.cutoff)
-
-            # Reset hints
-            #self.hint_used = 0
         elif event.keysym == "h":
             text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
             print(text_comm)

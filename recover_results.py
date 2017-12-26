@@ -36,4 +36,4 @@ def recover_results(buffer, type):
             for val in outputList:
                 writer.writerow(val)
 
-recover_results(["A","E","R"], "Corner")
+#recover_results(["A","E","R"], "Corner")
