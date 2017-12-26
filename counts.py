@@ -4,7 +4,7 @@ def count_stats(buffer, type):
     num_tot = 24 - len(buffer)
     counts_total = 0
 
-    with open ("output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         result_list = list(reader)
 

@@ -59,11 +59,11 @@ def create_letterpair(buffer):
 #letter = create_letterpair(["A","E","R"])
 
 def create_output_file(letters, type):
-    with open("output_test_%s.csv"%(type), "w", newline="") as output:
+    with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
         writer = csv.writer(output)
         for val in letters:
             writer.writerow(val)
-    with open("results_%s.csv"%(type), "a", newline="") as results:
+    with open("data/results_%s.csv"%(type), "a", newline="") as results:
         pass
 
 #create_output_file(letter, "Corner")

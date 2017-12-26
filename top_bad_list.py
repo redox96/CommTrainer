@@ -4,7 +4,7 @@ def bad_list(buffer,type):
     num_tot = 24 - len(buffer)
     topFiveTimes = [[0]*3 for i in range(num_tot*(num_tot-1))]
 
-    with open ("output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         topFive = list(reader)
         for i in range(num_tot*(num_tot-1)):
@@ -21,7 +21,7 @@ def top_list(buffer,type):
     num_tot = 24 - len(buffer)
     topFiveTimes = [[0]*3 for i in range(num_tot*(num_tot-1))]
 
-    with open ("output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         topFive = list(reader)
         for i in range(num_tot*(num_tot-1)):

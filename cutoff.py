@@ -4,7 +4,7 @@ def cutoff_stats(cutoff, buffer, type):
     num_tot = 24 - len(buffer)
     above_cutoff = 0
 
-    with open ("output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         result_list = list(reader)
 

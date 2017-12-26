@@ -2,7 +2,7 @@ import csv
 
 def update_stats(randlet, d_time, buffer, type):
     num_tot = 24 - len(buffer)
-    with open ("output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         letterlist_int = list(reader)
         for i in range(0,num_tot*(num_tot-1)):
@@ -15,7 +15,7 @@ def update_stats(randlet, d_time, buffer, type):
             else:
                 pass
 
-        with open ("results_%s.csv"%(type), "r", newline="") as prev_results:
+        with open ("data/results_%s.csv"%(type), "r", newline="") as prev_results:
             reader = csv.reader(prev_results)
             results = list(reader)
             for i in range(0,len(results)):
@@ -26,7 +26,7 @@ def update_stats(randlet, d_time, buffer, type):
                     else:
                         pass
 
-    with open("output_test_%s.csv"%(type), "w", newline="") as output:
+    with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
         writer = csv.writer(output)
         for val in letterlist_int:
             writer.writerow(val)

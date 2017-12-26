@@ -3,11 +3,11 @@ import csv
 def recentness(buffer, type):
     tot_num = 24 - len(buffer)
 
-    with open ("output_test_%s.csv"%(type), "r", newline="") as output:
+    with open ("data/output_test_%s.csv"%(type), "r", newline="") as output:
         readerOUT = csv.reader(output)
         outputList = list(readerOUT)
 
-        with open ("results_%s.csv"%(type), "r", newline="") as prev_results:
+        with open ("data/results_%s.csv"%(type), "r", newline="") as prev_results:
             reader = csv.reader(prev_results)
             results = list(reader)
             for i in range(0,len(results)):
@@ -19,7 +19,7 @@ def recentness(buffer, type):
                     else:
                         pass
 
-        with open("output_test_%s.csv"%(type), "w", newline="") as output:
+        with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
             writer = csv.writer(output)
             for val in outputList:
                 writer.writerow(val)
