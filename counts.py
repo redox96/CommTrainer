@@ -11,10 +11,6 @@ def count_stats(buffer, type):
         for i in range(num_tot*(num_tot-1)):
             counts_total = counts_total + int(result_list[i][2])
 
-        #or .counts for result file
-        #print(counts_total)
         return counts_total
 
 
-
-#cutoff_stats(["A","E","R"],"Corner")

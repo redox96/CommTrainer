@@ -9,7 +9,3 @@ def topflop_output(topFive):
 
     return string_all
 
-
-#top_output([['LX', 25.42, '1'], ['KM', 22.01, '6'], ['FS', 19.44, '1'], ['WU', 19.38, '3'], ['WH', 17.0, '1']])
-
-

@@ -28,4 +28,4 @@ def recentness(buffer, type):
 
 
 
-recentness([1,2], "Edge")
+#recentness([1,2], "Edge")
