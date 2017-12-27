@@ -1,0 +1,438 @@
+BF;[U, r' u' r]
+FB;[r' u' r, U]
+BL;[U, r d2 r']
+LB;[r d2 r', U]
+BN;[U, r' u r]
+NB;[r' u r, U]
+BS;[x': U r U', l']
+SB;[x': l', U r U']
+BU;[x2: U r2 U', l2]
+UB;[x2: l2, U r2 U']
+DH;[U', l d l']
+HD;[l d l', U']
+DK;"[U; U', l' d2 l]"
+KD;"[U; l' d2 l, U']"
+DP;[U', l d' l']
+PD;[l d' l', U']
+DT;[U', l d2 l']
+TD;[l d2 l', U']
+DV;[x': l' U' l, d2]
+VD;[x': d2, l' U' l]
+GW;[y': l2, U' r U]
+WG;[y': U' r U, l2]
+JU;[l2, U r U']
+UJ;[U r U', l2]
+MW;[y': l2, U' r' U]
+WM;[y': U' r' U, l2]
+TU;[l2, U r' U']
+UT;[U r' U', l2]
+UV;[U r2 U', l2]
+BE;L: BF
+EB;L: FB
+BG;L': BF
+GB;L': FB
+BH;L2: BF
+HB;L2: FB
+BI;F': BL
+IB;F': LB
+BJ;F2:BL
+JB;F2: LB
+BK;"[U'; U, l' d2 l]"
+KB;"[U'; l' d2 l, U]"
+BM;R: BN
+MB;R: NB
+BO;R': BN
+OB;R': NB
+BP;R2: BN
+PB;R2: NB
+BQ;B2: BS
+BR;B: BS oder [U, r' u2 r]
+RB;B: SB oder [r' u2 r, U]
+QB;B2: SB
+BT;B': BS
+TB;B': SB
+BV;D': BU
+VB;D': UB
+BW;D2: BU
+WB;D2: UB
+BX;D: BU
+XB;D: UB
+DE;L': DH
+ED;L': HD
+DF;[U', l' u l]
+FD;[l' u l, U']
+DG;L: DH
+GD;L: HD
+DI;F2: DK
+ID;F2: KD
+DJ;[U', l' u2 l]
+JD;[l' u2 l, U']
+DL;F': DK
+LD;F': KD
+DM;R': DP
+MD;R': PD
+DN;R2: DP
+ND;R2: PD
+DO;R: DP
+OD;R: PD
+DQ;B': DT
+QD;B': TD
+DR;B2: DT
+RD;B2: TD
+DS;B: DT
+SD;B: TD
+DU;D: DV
+UD;D: VD
+DW;D': DV
+WD;D': VD
+DX;D2: DV
+XD;D2: VD
+CE;[U2, r u r']
+EC;[r u r', U2]
+CF;[y': U2, u r' u' r]
+FC;[y': u r' u' r, U2]
+CG;[U2, r' d r]
+GC;[r' d r, U2]
+CH;"[U'; U2, r' d' r]"
+HC;"[U'; r' d' r, U2]"
+CI;[U2, r u2 r']
+IC;[r u2 r', U2]
+CJ;[y': U2, r' u' r]
+JC;[y': r' u' r, U2]
+CK;"[U2; U2, l' d2 l]"
+KC;"[U2; l' d2 l, U2]"
+CL;[y': U2, r d r']
+LC;[y': r d r', U2]
+CM;[U2, r u' r']
+MC;[r u' r', U2]
+CN;[y': U2, r' u2 r]
+NC;[y': r' u2 r, U2]
+CO;[U2, r' d' r]
+OC;[r' d' r, U2]
+CP;[U': U2, r d r']
+PC;[U': r d r', U2]
+CQ;[U2, u r u' r']
+QC;[u r u' r', U2]
+CR;[y': U2, r' u' r]
+RC;[y': r' u' r, U2]
+CS;[U2, r' d2 r]
+SC;[r' d2 r, U2]
+CT;[y': U2, r d' r']
+TC;[y': r d' r', U2]
+UC;[l' U' x': U r U', l2]
+CU;[l' U' x': l2, U r U']
+CV;Setup to CU
+VC;setup to UC
+CW;setup to CU
+WC;setup to UC
+CX;setup to CU
+XC;setup to UC
+EI;[U: u', l' U' l]
+IE;[U: l' U' l, u']
+EJ;[L: u', r U r']
+JE;[L: r U r', u']
+EK;[L2: d', r U2 r']
+KE;[L2: r U2 r', d']
+EL;[L' U: d', l' U2 l]
+LE;[L' U: l' U2 l, d']
+EM;"[u; r' U2 r, u2]"
+ME;"[u'; r' U2 r, u2]"
+EN;"[L y'; r U2 r', u2]"
+NE;"[L y'; u2, r U2 r']"
+EO;"[L2 y'; r U' r', d2]"
+OE;"[L2 y'; d2, r U' r']"
+PE;[L' y': r' U2 r, d2]
+EP;[L' y': d2, r' U2 r]
+EQ;[u, r' U2 r]
+QE;[r' U2 r, u]
+ER;B': EQ
+RE;B': QE
+ES;B2: EQ
+SE;B2: QE
+ET;[L': d', r' U r]
+TE;[L': r' U r, d']
+EU;"[U2 y'; r2, U' l' U]"
+UE;"[U2 y'; U' l' U, r2]"
+EV;D' EU
+VE;D' UE
+EW;L2: GW
+WE;L2: WG
+EX;D EU
+XE;D UE
+FI;[F: u', r U r']
+IF;[F: r U r', u']
+FJ;[u', r U r']
+JF;[u', r U r']
+FK;[F': u', r U r']
+KF;[F': r U r', u']
+FL;[F2: u', r U r']
+LF;<!--anki-->[F2: r U r', u']
+FM;[R y': r U2 r', u2]
+MF;[R y': u2, r U2 r']
+FN;[y': r U2 r', u2]
+NF;[y': u2, r U2 r']
+FO;R' FN
+OF;R' NF
+FP;R2: FN
+PF;[L2 y': r' U2 r, d2]
+FQ;[L': u, r' U2 r]
+QF;[L': r' U2 r, u]
+FR;[y': r U2 r', U]
+RF;[y': U, r U2 r']
+FS;B' FR
+SF;B' RF
+FT;[L2: d', r' U r]
+TF;[L2: r' U r, d']
+FU;L D2: GW
+UF;D2 L: WG
+FV;L D: GW
+VF;D L: WG
+FW;L: GW
+WF;L: WG
+FX;"[y' U; l2, U r U']"
+XF;"[y' U; U r U', l2]"
+GI;[F2: d, r U2 r']
+IG;[F2: r U2 r', d]
+GJ;[F: d, r U2 r']
+JG;[F: r U2 r', d]
+GK;[d, r U2 r']
+KG;[r U2 r', d]
+GL;[F': d, r U2 r']
+LG;[F': r U2 r', d]
+GM;[R2 y': r U' r', d2]
+MG;[R2 y': d2, r U' r']
+GN;R: GO
+NG;R: OG
+GO;[r U' r', d2]
+OG;[d2, r U' r']
+GP;R': GO
+PG;R': OG
+GQ;[L2: u, r' U2 r]
+QG;[L2: r' U2 r, u]
+GR;[y': r U2 r', u]
+RG;[y': u, r U2 r']
+GS;B': GR
+SG;B': RG
+GT;[L: d', r' U r]
+TG;[L: r' U r, d']
+GU;D2: GW
+UG;D2: WG
+GV;D: GW
+VG;D: WG
+GX;D': GW
+XG;D': WG
+HI;[L2 F: u, r U r']<div>setup to FJ</div>
+IH;[L2 F: r U r', u]<div>setup to JF</div>
+HJ;[L2: u, r U r']
+JH;[L2: r U r', u]
+HK;[L': d, r U2 r']
+HL;[U: d, l' U2 l]
+LH;[U: l' U2 l, d]
+MH;[L y': r' U' r, u2]
+HM;[L y': u2, r' U' r]
+HN;[L2 y': r U2 r', u2]
+NH;[L2 y': u2, r U2 r']
+HO;[L' y': r U' r', d2]
+OH;[L' y': d2, r U' r']
+HP;[y': d2, r' U2 r]
+PH;[y': r' U2 r, d2]
+HQ;[L: u, r' U2 r]
+QH;[L: r' U2 r, u]
+HR;[B2: d', r' U r]
+RH;[B2: r' U r, d']
+HS;[B: d', r' U r]
+SH;[B: r' U r, d']
+HT;[d', r' U r]
+TH;[r' U r, d']
+HV;"[y' U'; r2, U l' U']"
+VH;"[y' U'; U l' U', r2]"
+HU;D: HV
+UH;D: VH
+HW;L': GW
+WH;L': WG
+HX;L' D': GW
+XH;D' L': WG
+IM;[U: l' U' l, u]
+MI;[U: u, l' U' l]
+IN;[F: r U r', u]
+NI;[F: u, r U r']
+IO;[F2: r U2 r', d']
+OI;[F2: d', r U2 r']
+IP;[F' y': d, r' U2 r]
+PI;[F' y': r' U2 r, d]
+IQ;[u2, r' U2 r]
+QI;[r' U2 r, u2]
+IR;[F: r U r', u2]
+RI;[F: u2, r U r']
+IT;[F': d2, r' U r]
+TI;[F': r' U r, d2]
+IU;F: JU
+UI;F: UJ
+IV;"[U; r2, U' l' U]"
+VI;"[U; U' l' U, r2]"
+IW;D': IV
+WI;D': VI
+IX;F D: JU
+XI;D F: UJ
+JM;[R: r U r', u']
+MJ;[R: u', r U r']
+JN;[r U' r', u']
+NJ;[u', r U' r']
+JO;[R': r U r', u']
+OJ;[R': u', r U r']
+JP;[R2: r U r', u']
+PJ;[R2: u', r U r']
+JQ;[B: r U r', u2]
+QJ;[B: u2, r U r']
+JR;[r U r', u2]
+RJ;[u2, r U r']
+JS;[F: r U2 r', d2]
+SJ;[F: d2, r U2 r']
+JT;[B2: r U r', u2]
+TJ;[B2: u2, r U r']
+JV;D': JU
+VJ;D': UJ
+JW;D2: JU
+WJ;D2: UJ
+JX;D: JU
+XJ;D: UJ
+KM;[R2: r U2 r', d']
+MK;[R2: d', r U2 r']
+KN;[F': r U r', u]
+NK;[F': u, r U r']
+KO;[r U2 r', d']
+OK;[d', r U2 r']
+KP;[R': r U2 r', d']
+PK;[R': d', r U2 r']
+KQ;[B2: r U2 r', d2]
+QK;[F2: r' U2 r, u2]
+KR;[F': r U r', u2]
+RK;[F': u2, r U r']
+KS;[r U2 r', d2]
+SK;[d2, r U2 r']
+KT;[F: d2, r' U r]
+TK;[F: r' U r, d2]
+KU;F': JU
+UK;F': UJ
+KV;F' D': JU
+VK;D' F': UJ
+KW;D: KX
+WK;D: XK
+KX;"[U'; l2, U' r U]"
+XK;"[U'; U' r U, l2]"
+LM;[y' R: u', r' U' r]
+ML;[y' R: r' U' r, u']
+LN;[F2: r U r', u]
+NL;[F2: u, r U r']
+LO;[F': r U2 r', d']
+OL;[F': d', r U2 r']
+LP;[y': d, r' U2 r]
+PL;[y': r' U2 r, d]
+LQ;[F: u2, r' U2 r]
+QL;[F: r' U2 r, u2]
+LR;[F2: r U r', u2]
+RL;[F2: u2, r U r']
+LS;[F': r U2 r', d2]
+SL;[B: r' U r, d2]
+LT;[d2, r' U r]
+TL;[r' U r, d2]
+LU;F2: JU
+UL;F2: UJ
+LV;D: LW
+VL;D: WL
+LW;"[U2; r2, U l' U']"
+WL;"[U2; U l' U', r2]"
+LX;D': LW
+XL;D': WL
+MQ;[u', r' U2 r]
+QM;[r' U2 r, u']
+MR;B': MQ
+RM;B': QM
+MS;B2: MQ
+SM;B2: QM
+MT;"[R'; d, r' U r]"
+TM;"[R'; r' U r, d]"
+MU;D2: MW
+UM;D2: WM
+MV;D: MW
+VM;D: WM
+MX;D': MW
+XM;D': WM
+NQ;R': MQ
+QN;R': QM
+NR;[U: u', l U2 l']
+RN;[U: l U2 l', u']
+NS;[R U: d, l U' l']
+SN;[R U: l U' l', d]
+NT;[R2: d, r' U r]
+TN;[R2: r' U r, d]
+NU;D: NV
+UN;D: VN
+NV;"[y' U'; r2, U l U']"
+VN;"[y' U'; U l U', r2]"
+NW;R': MW
+WN;R': WM
+NX;D2: NV
+XN;D2: VN
+OQ;R2: MQ
+QO;R2: QM
+OR;[R' U: u', l U2 l']
+RO;[R' U: l U2 l', u']
+OS;[U: d, l U' l']
+SO;[U: l U' l', d]
+OT;[R: d, r' U r]
+TO;[R: r' U r, d]
+OU;"[U2 y'; r2, U' l U]"
+UO;"[U2 y'; U' l U, r2]"
+OV;D': OU
+VO;D': UO
+OW;R2: MW
+WO;R2: WM
+OX;D: OU
+XO;D: UO
+PQ;[R: u', r' U2 r]
+QP;[R: r' U2 r, u']
+PR;[B2: d, r' U r]
+RP;[B2: r' U r, d]
+PS;[B: d, r' U r]
+SP;[B: r' U r, d]
+PT;[d, r' U r]
+TP;[r' U r, d]
+PU;D': PX
+UP;D': XP
+PV;D2: PX
+VP;D2: XP
+PW;R: MW
+WP;R: WM
+PX;"[y' U; l2, U r' U']"
+XP;"[y' U; U r' U', l2]"
+QU;B': TU
+UQ;B': UT
+QW;"[U' D; l2, U r' U']"
+WQ;"[U' D; U r' U', l2]"
+QV;D: QW
+VQ;D: WQ
+QX;"[U'; l2, U' r' U]"
+XQ;"[U'; U' r' U, l2]"
+RU;B2: TU
+UR;B2: UT
+RW;"[U2; r2, U l U']"
+WR;"[U2; U l U', r2]"
+RV;D: RW
+VR;D: WR
+RX;D': RW
+XR;D': WR
+SU;B: TU
+SU;B: TU
+SV;"[U; r2, U' l U]"
+VS;"[U; U' l U, r2]"
+SW;D': SV
+WS;D': VS
+SX;D2: SV
+XS;D2: VS
+TV;D': TU
+VT;D': UT
+TW;D2: TU
+WT;D2: UT
+TX;D: TU
+XT;D: UT
