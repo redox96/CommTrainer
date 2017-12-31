@@ -186,8 +186,8 @@ FQ;[U' L' U, r]
 QF;[U' L' U, r] inv
 FR;[z: [r, U R U']]
 RF;[z: [r, U R U']] inv
-FS;[x': [r U2 r', D']]
-SF;[x': [r U2 r', D']] inv
+FS;[x': [r U2 r', D]]
+SF;[x': [r U2 r', D]] inv
 FT;[x': [r U r', D]]
 TF;[x': [r U r', D]] inv
 FU;[Rw U': [U' l' U, L']]
@@ -498,8 +498,8 @@ UW;[x: [U2, Lw' U2 r U2 Lw]]
 WU;[x: [U2, Lw' U2 r U2 Lw]] inv
 UX;[Rw y': [D', l' U' l]]
 XU;[Rw y': [D', l' U' l]] inv
-VW;[R: [U' R U, r2]]
-WV;[R: [U' R U, r2]] inv
+VW;[U' R2 U, r2] inv
+WV;[U' R2 U, r2]
 VX;[R D': [r2, U' R U]]
 XV;[R D': [r2, U' R U]] inv
 WX;[x Rw': [U L' U', r2]]
