@@ -25,7 +25,7 @@ def group_for_rand(cutoff, type):
                 #print(new)
             elif int(results_output[i][2]) > 0 and int(results_output[i][2]) < 2:
                 # Store letterpairs of repeaters
-                index_last = int(results_output[i][3])-1
+                index_last = int(results_output[i][3])
                 count = int(results_output[i][2])
                 repeaters.append(results_output[i][0])
                 repeaters_weights.append(index_last/(2**count))
