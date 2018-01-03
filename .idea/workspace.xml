@@ -17,7 +17,7 @@
       <file leaf-file-name="save_to_results.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/save_to_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="0">
               <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
@@ -56,21 +56,36 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="group_for_randomization.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/group_for_randomization.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
+=======
+      <file leaf-file-name="group_for_randomization.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group_for_randomization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+>>>>>>> test
               <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="comm_chooser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comm_chooser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1309">
               <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+=======
+      <file leaf-file-name="comm_chooser.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comm_chooser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+>>>>>>> test
               <folding />
             </state>
           </provider>
@@ -139,7 +154,6 @@
         <option value="$PROJECT_DIR$/results_Corner.csv" />
         <option value="$PROJECT_DIR$/group_comms.py" />
         <option value="$PROJECT_DIR$/output_test_Corner.csv" />
-        <option value="$PROJECT_DIR$/comm_chooser.py" />
         <option value="$PROJECT_DIR$/CommApp.py" />
         <option value="$PROJECT_DIR$/topflop_output.py" />
         <option value="$PROJECT_DIR$/CommApp_wip.py" />
@@ -148,19 +162,27 @@
         <option value="$PROJECT_DIR$/counts.py" />
         <option value="$PROJECT_DIR$/counts2.py" />
         <option value="$PROJECT_DIR$/cutoff.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/letterpairs.py" />
+=======
+>>>>>>> test
         <option value="$PROJECT_DIR$/recentness.py" />
         <option value="$PROJECT_DIR$/recover_results.py" />
         <option value="$PROJECT_DIR$/top_bad_list.py" />
         <option value="$PROJECT_DIR$/update_stats.py" />
         <option value="$PROJECT_DIR$/save_to_results.py" />
         <option value="$PROJECT_DIR$/group_for_randomization.py" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/letterpairs.py" />
+        <option value="$PROJECT_DIR$/comm_chooser.py" />
+>>>>>>> test
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1279" />
-    <option name="y" value="-172" />
+    <option name="x" value="-1292" />
+    <option name="y" value="-144" />
     <option name="width" value="1280" />
     <option name="height" value="860" />
   </component>
@@ -188,6 +210,11 @@
               <item name="CommTrainer" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommTrainer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CommTrainer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommTrainer" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CommApp">
+  <component name="RunManager" selected="Python.comm_chooser">
     <configuration name="CommApp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,7 +256,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="counts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="comm_chooser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -241,7 +268,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CommTrainer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/counts.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/comm_chooser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="letterpairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CommTrainer" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letterpairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,24 +323,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CommTrainer" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/save_to_results.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="top_bad_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CommTrainer" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/top_bad_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -449,19 +476,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.counts" />
-      <item index="1" class="java.lang.String" itemvalue="Python.top_bad_list" />
-      <item index="2" class="java.lang.String" itemvalue="Python.CommApp" />
-      <item index="3" class="java.lang.String" itemvalue="Python.load_comms" />
-      <item index="4" class="java.lang.String" itemvalue="Python.save_to_results" />
+      <item index="0" class="java.lang.String" itemvalue="Python.CommApp" />
+      <item index="1" class="java.lang.String" itemvalue="Python.load_comms" />
+      <item index="2" class="java.lang.String" itemvalue="Python.save_to_results" />
+      <item index="3" class="java.lang.String" itemvalue="Python.comm_chooser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.letterpairs" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.CommApp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.save_to_results" />
-        <item index="2" class="java.lang.String" itemvalue="Python.load_comms" />
-        <item index="3" class="java.lang.String" itemvalue="Python.counts" />
-        <item index="4" class="java.lang.String" itemvalue="Python.top_bad_list" />
+        <item index="1" class="java.lang.String" itemvalue="Python.comm_chooser" />
+        <item index="2" class="java.lang.String" itemvalue="Python.letterpairs" />
+        <item index="3" class="java.lang.String" itemvalue="Python.save_to_results" />
+        <item index="4" class="java.lang.String" itemvalue="Python.load_comms" />
       </list>
     </recent_temporary>
   </component>
@@ -482,13 +509,24 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1518283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23687151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2860335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> test
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33966482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23687151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> test
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1518283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -516,32 +554,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/letterpairs.py</url>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/counts2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/group_for_randomization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm_chooser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CommApp_wip.py" />
     <entry file="file://$PROJECT_DIR$/cutoff.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -699,6 +722,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/letterpairs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -713,6 +737,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> test
     <entry file="file://$PROJECT_DIR$/recover_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -745,13 +771,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/save_to_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="0">
           <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/recentness.py" />
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/data/results_Edge.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> test
     <entry file="file://$PROJECT_DIR$/CommApp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -762,21 +799,67 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/comm_chooser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="18" lean-forward="false" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
+=======
+    <entry file="file://$PROJECT_DIR$/load_comms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letterpairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+>>>>>>> test
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/group_for_randomization.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="425">
+=======
+        <state relative-caret-position="163">
+>>>>>>> test
           <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/data/results_Wing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/output_test_Wing.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm_chooser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> test
   </component>
 </project>
