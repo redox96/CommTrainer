@@ -17,7 +17,7 @@ def buffer(type):
         buffers = ["A"]
         return buffers
     elif type == "Wing":
-        buffers = ["U"]
+        buffers = ["C"]
         return buffers
     elif type == "Midge":
         buffers = ["U", "K"]

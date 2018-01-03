@@ -12,7 +12,13 @@ def comm_chooser(comms_groups):
     rest = comms_groups[8]
     rest_weight = comms_groups[9]
 
-    if len(repeaters) > 0:
+    print(repeaters_weight)
+    print(len(repeaters_weight), len(repeaters))
+
+    if len(new) > len(new)+len(repeaters)+len(bad)+len(old)+len(rest)-5:
+        pran_comm = "N"
+
+    elif len(repeaters) > 5:
         dist = ["R", "R", "R", "R", "R", "R", "R", "R", "SN", "SN"]
         pran_comm = random.choice(dist)
 
