@@ -28,8 +28,30 @@ def buffer(type):
     else:
         pass
 
+
+def twist(type):
+    # for UBL Buffer
+    if type == "Corner":
+        twists = ["BQ", "BN", "NQ", "QB", "NQ", "BN", "CM", "MC", "CJ", "JC", "JM", "MJ", "DF", "FD", "DI", "ID", "IF", "FI",
+                  "LU", "UL", "UG", "GU", "GL", "LG", "KP", "PK", "VK", "KV", "PV", "VP", "XS", "SX", "SH", "HS", "XH", "HX",
+                  "WO", "OW", "WT", "TW", "TO", "OT"]
+    else:
+        twists = []
+    return twists
+
+def flip(type):
+    # for DF Buffer
+    if type == "Edge":
+        flips = ["AQ", "QA", "BM", "MB", "CI", "IC", "DE", "ED", "FL", "LF", "GX", "XG", "HR", "RH", "JP", "PJ", "NT", "TN", "OV", "VO", "SW", "WS"]
+    else:
+        flips = []
+
+    return flips
+
 # Create List (letters) with all possible letter pairs
-def create_letterpair(buffer):
+def create_letterpair(buffer, type):
+    specials = [flip(type),twist(type)]
+
     tot_num = 24 - len(buffer)
     letters_AX = list(map(chr, range(ord('A'), ord('X')+1)))
 
@@ -47,14 +69,23 @@ def create_letterpair(buffer):
 
     # Letters for letterpair, time, counter, fails, last index, weight
     letters = [[0]*6 for i in range(tot_num*tot_num)]
+    letters_int = [[0] for i in range(tot_num*tot_num)]
 
     for i in range(0, tot_num*tot_num-1):
         lett[i][0]= lett_A[i]
         lett[i][1]= lett_B[i]
+        letters_int[i] = lett[i][0]+lett[i][1]
         letters[i][0] = lett[i][0]+lett[i][1]
 
+
+
     del letters[::(tot_num+1)]
+
     return(letters)
+
+
+
+
 
 #letter = create_letterpair(["A","E","R"])
 

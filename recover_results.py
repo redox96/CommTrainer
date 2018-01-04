@@ -2,6 +2,8 @@ import csv
 
 def recover_results(buffer, type):
     tot_num = 24 - len(buffer)
+    total = tot_num*(tot_num-1)
+
     with open ("data/output_test_%s.csv"%(type), "r", newline="") as output:
         readerOUT = csv.reader(output)
         outputList = list(readerOUT)
@@ -12,7 +14,7 @@ def recover_results(buffer, type):
             for i in range(0,len(results)):
                 randlet = results[i][0]
                 d_time = float(results[i][1])
-                for k in range(tot_num*(tot_num-1)):
+                for k in range(total):
                     if outputList[k][0]== randlet:
                         count = int(outputList[k][2])
                         times_prev = float(outputList[k][1])
