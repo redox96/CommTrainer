@@ -2,7 +2,7 @@ from tkinter import *
 import csv
 
 # Import functions
-from letterpairs import random_LP, create_output_file, buffer, create_letterpair, choose_type
+from letterpairs import random_LP, create_output_file, buffer, create_letterpair, choose_type, twist, flip
 from update_stats import update_stats
 from save_to_results import save_to_results
 from top_bad_list import bad_list, top_list
@@ -92,7 +92,7 @@ class MyApp(Frame):
 
         # Create letterpairs
         self.letters = StringVar(value=None)
-        self.letters = create_letterpair(self.buffer)
+        self.letters = create_letterpair(self.buffer, self.comm_type.get())
 
         # Create an output file and recover previous results
         create_output_file(self.letters, self.comm_type.get())
