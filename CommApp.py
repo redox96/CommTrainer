@@ -14,6 +14,7 @@ from load_comms import show_comm
 from topflop_output import topflop_output
 from group_for_randomization import group_for_rand
 from comm_chooser import comm_chooser
+from load_words import show_words, show_words2, show_words3
 
 class MyApp(Frame):
     def __init__(self, master = None):
@@ -39,6 +40,9 @@ class MyApp(Frame):
         self.times_new = IntVar(value=0)
         self.topFive = StringVar(value=None)
         self.topFiveGood = StringVar(value=None)
+        self.words = StringVar(value=None)
+        self.words2 = StringVar(value=None)
+        self.words3 = StringVar(value=None)
         self.num_tot = IntVar(value=0)
         self.cutoff = DoubleVar(value=0)
         self.cutoff=7.0 #set to 7 as default
@@ -66,14 +70,16 @@ class MyApp(Frame):
         self.buttonstart.pack(pady = 5)
         self.cutoff_ask=Label(self.bottomframe, text="Cutoff", font=(None,15))
         self.cutoff_ask.pack(side=LEFT, padx = 5)
-        self.cutoff_box=Spinbox(self.bottomframe, from_=0, to=10, increment=0.5, font=(None,15),width=4)
+        self.cutoff_box=Spinbox(self.bottomframe, from_=0, to=15, increment=0.5, font=(None,15),width=4)
         self.cutoff_box.delete(0,"end")
         self.cutoff_box.insert(0,7)
         self.cutoff_box.pack(side=LEFT, padx = 10)
         self.cutoff_button=Button(self.bottomframe, text="Update", font=(None,15))
         self.cutoff_button.pack(side=LEFT)
-        self.topflop=Button(self.bottomframe, text = "Top5/Flop5", font = (None, 15))
+        self.topflop=Button(self.bottomframe, text = "TopFlops", font = (None, 15))
         self.topflop.pack(side=LEFT, padx = 20)
+        self.words_button=Button(self.bottomframe, text="Words", font=(None,15))
+        self.words_button.pack(side=LEFT)
         self.cutoff_output=Label(self.bottomframe2, text = "Set Comm Type and Cutoff to view Statistics", font=(None, 15))
         self.cutoff_output.pack(side=TOP, pady = 5)
         self.cutoff_output2=Label(self.bottomframe2, text = " ", font=(None, 15),fg="Blue")
@@ -125,6 +131,16 @@ class MyApp(Frame):
             self.cutoff_output3.configure(text = [self.counts_total,"tries","up","to","now"],font=(None,15))
             self.cutoff_output2.configure(text=cutoff_motivation(self.above_cutoff,self.counts_total),fg="Blue",font=(None,15))
 
+        # TO DO
+        elif event.widget == self.words_button:
+            self.words = show_words(self.letterpair, self.buffer)
+            self.words2 = show_words2(self.letterpair, self.buffer)
+            self.words3 = show_words3(self.letterpair, self.buffer)
+            print(self.words)
+            self.cutoff_output.configure(text = [self.words, "test"])
+            self.cutoff_output2.configure(text = self.words2)
+            self.cutoff_output3.configure(text = self.words3)
+
         elif event.widget == self.topflop:
             self.topFive = bad_list(self.buffer, self.comm_type.get())
             self.cutoff_output2.configure(text=topflop_output(self.topFive),fg="Black",font=(None,12))
@@ -158,11 +174,33 @@ class MyApp(Frame):
             self.successlabel.configure(text = text_comm)
             self.hint_used = 1
 
+        elif event.keysym == "Down":
+            randlet = self.randomletters.get()
+            if self.hint_used == 1:
+                self.d_time = self.d_time + 10
+                self.hint_used == 0
+            else:
+                self.hint_used == 0
+
+            save_to_results(randlet,self.d_time, self.comm_type.get())
+
+            [self.times_new, self.counter] = update_stats(randlet, self.d_time, self.buffer, self.comm_type.get())
+            print(self.times_new)
+            print(self.counter)
+            self.successlabel.configure(text= [randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
+
+            comms_groups = group_for_rand(self.cutoff,self.comm_type.get())
+            self.randomletters=StringVar(value = comm_chooser(comms_groups))
+            print(self.randomletters.get())
+
+            self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
+            self.result.set(event.time)
+
         else:
             self.d_time = IntVar(value=0)
             self.d_time = (event.time - self.result.get())/1000 #in Seconds
             self.timer.configure(text=self.d_time)
-            self.successlabel.configure(text="Press Enter to save the result \n or h to show the comm")
+            self.successlabel.configure(text="Press Enter to save the result \n Down to save and continue \n or h to show the comm")
             self.hint_used = 0
 
 root = Tk()
