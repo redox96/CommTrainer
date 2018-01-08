@@ -1,0 +1,576 @@
+AB	Abel, Autobahn, ABBA, Airbag<div>ab</div><div>anbeten</div>
+AC	Atze, Anzug, Accra, AC Milan, Achilles<div>anziehen</div>
+AD	Adel, Ad(vert), Ader, add-on, AIDA<div>adlig</div><div>adeln, abdanken</div>
+AE	Aeneas, stotterndes Äää, aerob<div>anekeln</div>
+AF	Affe, Afrika<div>anfassen, äffen</div>
+AG	Alge, Auge, Silber (Ag), Agar<div>angaffen, angeln, aufgabeln</div>
+AH	Ahaa!, Adolf Hiller<div>ahnen, aufheben, aufhängen</div>
+AI	Genialer Roboter, All in, AIDA, Aioli<div>altindisch, animpfen</div>
+AJ	Asche, Arsch<div>verarschen</div>
+AK	<div>Anker, Anke (Engelke), Alaska, Akupunktur, Akku, Alk, Alleskönner</div><div>altklug</div>ankohlen, ankurbeln
+AL	All, Alien, Alligator, Alu<div>alle, alt</div><div>ablichten</div>
+AM	Amerika, Ambulanz, Ameise<div>anmalen, anmachen</div>
+AN	Anne, Annonce, Anubis, Angsthase Annika<div>an</div><div>an-machen</div>
+AO	Aorta, Aosu, Australian Open (Tennis)<div>anordnen</div>
+AP	Apnoe, Apfel, Apollo (Gott, Rakete), App, Abendpredigt, Asphalt<div>abputzen</div>
+AQ	Aqua, Aquarium, AlQaida, böser explodierender Akku, böse Akne<div>anquatschen</div>
+AR	A**, Arm, Ara, Arrow, Araber<div>arabisch, arrogant<div>anrufen</div></div>
+AS	Assel, Ast, Astronaut, Asterix<div>assen, absitzen (eine Strafe)</div>
+AT	Atlas (Gott, Buch), @, Atom, altes Testament, Altar, antik<div>antippen</div>
+AU	Auto, Gold, aua, Au, Auge<div>ausufern, auen (so tun, als würde man hauen)</div>
+AV	Avocado, Avogadro (grosse Anzahl), Aves (Opa)
+AW	Anwalt, an/abwesend, aww, Anwesen<div>aufwachen, abwickeln, anwenden</div>
+AX	Axt, Achse, Achsel, Arche, acht<div>achseln (mit den Achselhöhlen furzen), achten</div>
+BA	Bahn, Babbel<div>babbeln</div>
+BC	Bach, Bacon, bizli, Beiz, Bizeps<div>buchen, bechern</div>
+BD	Bude, Bild, Bad, Boden, Bull Dog, Comic (Bande Dessinee)<br /><div>baden</div>
+BE	Be, Baby, Beere, abgehacktes Be(in), Besen, Besen<div>beenden, beten, beben</div>
+BF	Büffel, Beef<div>baff<br><div>büffeln, befehlen
+BG	Borg (Tennis/Star Trek), Böögg, Bagger, Burg, Berg, Bogen<div>big</div><div>baggern</div>
+BH	BH, Badehose, Beinhebel, BöHe, Behörde, Behälter<div>behalten</div>
+BI	Biene, Bibi, Bibel, Bi-, blaue Insel<div>bi (2)</div><div>beirren, bieten</div>
+BJ	Boje, ..., bad job, Busch, Bush, Badge<div>bejahen, blau jagen</div>
+BK	Burger King, kleiner Buckel, lieber Bäcker<div>bekifft</div><div>backen</div>
+BL	Ball, Bell, Timo Boll, Bulle<div>blabla, billig, blau</div><div>belügen</div>
+BM	Baum, Bombe, Bambi<div>bemitleiden, bäumen, bimmeln, baumeln</div>
+BN	Bein, Bohne, Bonn, Banane, Bann<div>binnen<br><div>(ver)bannen</div></div>
+BO	Bohne, Boot, DJ Bobo<div>ausbooten, beordnen</div>
+BP	Beppo (Hunde Clown), Beep<div>big plus</div><div>beepen</div>
+BQ	Bequem, böser Buckel, BBQ, böser Bäcker<div>mit Gift backen, bequatschen</div>
+BR	braun, Brei, Bier, Braut, Brot, Birne<div>beraten, brauen</div>
+BS	Bass, Boss, Bus, Busse, Bull Shit, Basel<div>besser</div><div>bessern, besingen</div>
+BT	Bett, Butter, betrunken, Bitte<div>betrinken, betten, bitten</div>
+BU	Buch, Busen, Boooh, Bug<div>buhen</div>
+BV	Belvoir, bevor,&nbsp;B-Vögel (fliegen langsam), Bussverordnung, Bergvieh<div>beviechern</div>
+BW	Bergwerk, bow, Bauwerk, Bowling<div>bowlen, bewegen, beweisen</div>
+BX	Box, Boxer<div>boxen</div>
+CA	Canada, Zahn, California<div>kanadisch, zahlen</div>
+CB	Zaubern, Zubehör, Zuber<div>zaubern</div>
+CD	CD, Code, Zeder<div>coden, zaudern</div>
+CE	Zeh, Zehn, Zeus
+CF	Cyoubx Friends, Zoff<div>zoffen</div>
+CG	Zug, Zunge, Zügel, Zigarre<div>zügeln</div>
+CH	Schweiz, Zürich, Zahl<div>zuhause, zahlen</div>
+CI	Zitze, Zirkus, Ziel<div>zielen, ziepen</div>
+CJ	Zisch, Zuschuss<div>zischen</div>
+CK	Zicke, Zirkel<div>zicken, zucken</div>
+CL	Zoll, Clown, CLL, Zelle, clever<div>zollen, call</div>
+CM	Zimt, Zombie, cam, Cookie Monster, Zimmer<div>zimmern</div>
+CN	Zander, Zunder, China, color neutral, Zahn<div>zündeln, zahnen</div>
+CO	Comic, Co-, Zoo, Cobalt, cool, Columbus?
+CP	Cop, Cap<div>croppen, zappeln</div>
+CQ	Croquette, coq, ...<div>zocken</div>
+CR	Cristiano Ronaldo, Zar, Chrom<div>zurren, zerren</div>
+CS	Zyste, CIS, Credit Suisse, Zusatz, cross<div>zusetzen</div>
+CT	CT, cute, Zeit<div>zittern</div>
+CU	Kupfer (Cu), see you, Zulu<div>zu</div>
+CV	CV, cover<div>covern</div>
+CW	Zwang, zwischen, zwei, cow, Zwilling, Zwiebel, Zwirn, Zweig<div>zwitschern, zwingen</div>
+CX	Cyoubx, Cox<div>coxen</div>
+DA	Dalai Lama, Dach, Dahlie, Dame,  Dauer<div>da sein, dauern</div>
+DB	Dieter Bohlen, Dübel, Debakel, Debatte, double, Dachboden, Dieb<div>dabei</div><div>dübeln</div>
+DE	Deutscher, deutsch<div>dänisch</div><div>dehnen</div>
+DC	Dozent, Doc, Dreizack<div>dezent (verschwiegen)</div><div>duzen, dezimieren</div>
+DF	<div>Delfin, Duffy, Daphnie</div>defekt, defensiv<div>diffundieren, düffeln!</div>
+DG	Degen, Dogge, Digga, Diagnose, Diagramm<div>doggern?</div>
+DH	DH, Dahoud, Doha<div>daheim</div><div>deHnen (betont)</div>
+DI	Dinosaurier, Diener<div>dienen</div>
+DJ	DJ, Dusche<div>duschen, dreschen</div>
+DK	Dackel, Dickdarm, Deckel<div>dick</div><div>diktieren, decken</div>
+DL	Delle, doll, Delirium, Dill, Dilettant, Dilemma, Drall<div>drollig</div><div>delegieren, drillen</div>
+DM	Daumen, Denkmal, Dame, Dom, Dämmerung, Dampf, Dämon, Damm, Dummy<div>dumm</div><div>dämmern, dämmen</div>
+DN	Ding, Donner, Dinner<div>donnern</div>
+DO	Donau, Döner, Dohle, Dose, Donut<div>doof</div><div>rumdoofen</div>
+DP	Depp, Doppel, Dipsy<div>doppeln, dippen, dopen</div>
+DQ	..., böser Doc, Dairy Queen, Dreck<div>disqualifiziert</div>
+DR	Draht, Drehung, Dreieck, Droge, Druide<br /><div>dürr, dreckig, drei</div><div>drehen</div>
+DS	Dusel, Dosis, Durst, Dossier, Dessert, Diesel, Düse<br><div>düster, dusslig</div><div>dosieren, dissen, düsen</div>
+DT	Dieter, Donald Trump, Dotter, Dutt, Datum, Dattel, Datum, Detektiv, Detail<div><div>deutlich</div><div>detonieren</div></div>
+DX	Dichter, Docht, Dax, Dachs, Durchfall<div>durchaus, doch<br /><div><div>dichten</div></div></div>
+DU	Duden, Duft, Dudelsack<div>dudeln, duften</div>
+DV	Diva, Duvet, Davos, Darth Vader, DVD<div>devot (fromm), davor</div><div>divergieren</div>
+DW	Dauerwelle, Diwan (Couch), Dwarf<div>dwell, durchwuseln</div>
+EA	Ea (bab. Regengott, Widder/Steinbock), Eagles, ear<div>entarten</div>
+EB	Ebbe, Eber, Erbse<div>ebben, ebnen</div>
+EX	Ex, Echse, Explosion, extrem, Extrakt, Expedition, Experiment, Experte, Expansion, Exil, exotisch, Echnaton<div>exen, existieren, expandieren, experimentieren</div>
+EC	Echo, EC Karte, Entzug, Eclair, Eckzahn<div>erzeugen, ätzen, ecouter</div>
+ED	Edelstein, Edding, Ed, Entdecker<div>edel</div><div>veredeln, entdecken</div>
+EF	Effekt, Effie, elf, Elfe, Elefant, Eifel, eifrig, Erfinder, Erfolg<div>effilieren (beschneiden), entfusseln, eifern, erfinden, erfahren</div>
+EG	EEG, Egel, egal, Egoist, EG1-2<div>entgegnen, egalisieren</div>
+EH	ehemalig, Ehe, Ehre, Edmund Hofstetter,&nbsp;Eichhörnchen<div>ehren</div>
+EI	Ei, Eid, Eimer, Eile, Einstein<div>eilen, einbilden?, eiern</div>
+EJ	Esche, ..., eeey!, edge<div>...</div>
+EK	EKG, Ekel, eklig, Ecke<div>ekeln</div>
+EQ	Equus, Equador, Äquator, Equilibrium, böse Ecke wo man immer anstösst<div>equilibrieren</div>
+EL	Elch, Elektro-, Element,  Elmo<div>erledigen</div>
+EM	Emo, Eminem, Emma, Emil, Embryo<div>emotional, empor, emsig</div><div>emigrieren, empfangen</div>
+EN	Ende, Energie, Engel, England, Ente<div>eng, enorm</div><div>enummerieren?</div>
+EO	EO, Eor (Esel in Winnie Pu), Eselsohr<div>einordnen</div>
+EP	EPO, Epileptiker, Epidemie, Epikur<div>edges permuten</div>
+ER	Erde, Erbse<div>erden, einreisen</div>
+ES	Eskimo, Ersatz, Essen, Esel<br /><div>essen</div>
+ET	Ausserirdischer, Etage, Etappe, Ethik, Etui, Ätna, Eiter<div>eitern</div>
+EU	Euro, Europa, Eule, Euphorie, Euter<div>heulende Eulen</div>
+EV	nackte Eva, Evakuation, Evangelium, Event, eventuell, evident<div>evakuieren</div>
+EW	Ewigkeit, ewig, Erdwind, Edward<div>verewigen, entwinden, einweisen</div>
+FA	Pharao, Fahne, Fan<div>fanen</div>
+FB	Fabel, Facebook, Fussballer, Fabrik, Fieber<div>Fussball spielen, fiebern</div>
+FC	Fussball Club, Fach, Fächer, Fetzen, Furz, Fidel Castro<div>fächern, furzen</div>
+FD	Faden, fad, Fadenwurm, Freidenker, Feld, Fudi<div>fädeln</div>
+FE	Fee, fähig, Eisen (Fe), fern, Feuer<div>fehlen? feuern</div>
+FG	dummer Vogel, Flegel, Flügel, Feige, Finger<div>fingern, fegen</div>
+FH	freihändig, Fehler, Fahad, Fähre, Fahrradhelm<div>fahren?</div>
+FI	Fibel, Fiedel, fies, Filz, Finale, Figur, Fisch, Fiffi (kleiner Hund)<div>fischen</div>
+FJ	Fiji, Fajita, Fudge<div>futsch<br /><div>Freijagen</div></div>
+FK	Fackel, Ferkel, Fokker, FKK, fake, Fraktur<div>fackeln, flicken</div>
+FL	Liechtenstein, Flut, Fall, Flug, flau, Fluss<div>fliegen ,fallen, fliessen, foltern, füllen</div>
+FM	Flamme, femme, faim, Femor, FM<div>flimmern, fummeln</div>
+FN	Firn, Farn, Finne (auch die vom Hai), Phone, Finish, Funk<div>finden, funken</div>
+FO	Foto, Form, fort, Fohlen, Föhn<div>folgen, formen, fotographieren, föhnen</div>
+FP	<div>Flipper, Fusspedal</div>foppen
+FQ	..., Frequenz<div>...</div>
+FR	frei, Frankreich, Frau, Frage, Fracht, Frank<div>fragen, franseln</div>
+FS	Fuss, Fussel, Fass<div>fassen, fussen, fressen</div>
+FT	Fit, fett, Fett, Futur, Futter<div>fetten, füttern</div>
+FU	Fusel, Fühler, Fuge, Fund, fun, Fund, Funzel (dunkle Lampe), Furcht, Furie<div>fühlen</div>
+FX	Fuchs, Frucht, Fluch, feucht<div>befruchten, fluchen, faxen</div>
+FV	Five, Fettverbrennung, Favorit<div>favorisieren</div>
+FW	Feuerwerk, Feuerwehr, Feuerwache, Firewall, Fabelwesen, Farnwald, Freiwild, Forstwild
+GA	Lady Gaga, Gau, Gag, Gas<div>gähnen</div>
+GB	Gabel, Gibbon, Goblin<div>geben</div>
+GC	Gucci, Guezli, Grasshüpfer, Gazelle, Gaze
+GD	Geld, God, Goodie
+GE	Geek, Gel<div>gegen, gehen (achtung GH)</div>
+GF	Giraffe, Gift<div>gaffen</div>
+GH	geheim, Gandhi<div>gehören, gehen (achtung GE)</div>
+GI	<div>Gigi Buffon, Gitarre</div>giggeln
+GJ	Geysir, Garage, good job, Gosh, Gejammer<div>gescheit</div>
+GK	Goalkeeper, Geek,  Geizkragen<div>gekocht, gackern</div>
+GL	Globus, Geld, Gelächter<div>glauben</div>
+GM	Game, Gummi, Grossmutter, Gamma<div>gamen, gammeln</div>
+GN	Gnu, Gen, Gin (JN?), Gnom, Gans<div>generieren</div>
+GO	Go, goggles, Goofy<div>go</div>
+GP	Gips, GPS, Grappa, Gipfeli<div>gipfeln</div>
+GQ	Gecko, Gokart, vergiftete Guacamole<br><div>böse gucken</div>
+GR	Gras, Grieche, grau, Gerber, Grönland<div>graben</div>
+GS	Geist, Gasse, Gesang<div>giessen</div>
+GT	gut, Gott, Gatte, Gitter<div>(ver)göttern</div>
+GU	Guano, Gurgel, Gürtel<div>gut</div>
+GV	(Che) Guevara, Gevatter, GV, Gouverneur<br>give / gave
+GW	Gewürz, Gewusel, Geheimwaffe, Gewalt, Gewölbe<div>George Washington</div>
+GX	Gicht
+HA	Hahn, Haare<div>haaren</div>
+HB	Hochbegabter, Hebel, Hobel, Hobbit<div>haben, heben</div>
+HC	Hitze, hoch<div>hetzen</div>
+HD	Hades, Hoden, Hot Dog, high definition
+HE	Heer, Helium, Hefe<div>Hehe, hehlen</div>
+HF	Harfe, Haufen, Huf<div>helfen, hoffen</div>
+HG	Hang, Heugabel<div>hug, hängen</div>
+HI	<div>Hilfe, hysterisch, Hilter</div>Hi winken
+HJ	Hatschi, Haschisch<div>erhaschen, huschen</div>
+HK	<div>Haken, Harke</div>häkeln
+HL	hell, halb, Hölle, Hülle<div>hell machen</div>
+HM	Hammer, Hummer, Homer, Hummus<div>hämmern</div>
+HN	Henne, Hand
+HO	<div>Hose, Samichlaus, Honig</div>holen
+HP	Hanspeter, Hippo, Harry Potter, Hippie<div>hoppeln</div>
+HQ	Böse Hacke, Hockey<div>im Hocken kacken, böse hicksen</div>
+HR	Herz, Hirse, Herr, Hero<div>herrschen, heiraten</div>
+HS	Hase, Hass<div>hassen</div>
+HT	Hütte, Hottentotte<div>hätten</div>
+HU	Hut, Hunger, Ungare<div>huhu, hupen</div>
+HV	<div>HIV, Havanna, Heaven, Havarie (Schiffbruch)</div>hieven
+HW	Halloween, HiWi, Hawaii<div>händewaschen</div>
+HX	Hexe, Haxen<div>hexen</div>
+IA	verkleideter Esel<div>i-ahen</div>
+IB	Ibis, Ibsen, YB
+IC	ICE, Ice
+ID	Idee, Idiot, Idefix
+IE	Internet explorer Zeichen / lahm
+IF	Eiffelturm, Infusion
+IG	Igel
+IH	Iiiihh (irgendwas ekliges)
+IJ	Ischias, Indiana Jones
+IK	Ikarus, Inka, Ikea, Berliner (ikke)
+IL	Englisch krank, Iltis, Illusion, Ilkay
+IM	Imker, Imam<div>impfen</div>
+IN	Indianer, Insel, Insekt<div>innen</div>
+IO	Io (Mond)
+IP	Ipad, Input
+IQ	schlau, Einstein, ice cubes
+IR	<div>Ire, Iris</div>irren
+IS	ISS, Isegrim (Märchenwolf), Island, Isolde
+IT	Italien (Pizzaiolo), ice tea
+IU	Iglu, IU (südkoreanische Sängerin)
+IV	Ivysaurus (blauer blätter drache von Pokémon), ivy, intravenös, invent
+IW	Iwoo (bayrisch), im Wasser, iwatch
+IX	Index, ich, Ibex (Steinbock)
+JA	Jahr, Jalalallala (dicke Indische Präsidentin)<div>ja nicken</div>
+JB	Jumbo (Flugi, Elephant), Jelly bean, James Bond, Justin Bieber<div>schaben, jobben</div>
+JC	jetzt, Schatz, Julius Caesar, Jackie Chan<div>schätzen</div>
+JD	jeder, James Dean (schwarz weiss), Jedi (Starwars mit Laserschwert)<br /><div>jodeln, schaden</div>
+JE	<div>jeder, Jesus, Französischer Egoist</div>jeeee rufen
+JF	Jeff (krasser Jogger), Schaf, Jaffa Keks, Jelly Fish<div>schaffen</div>
+JG	Jagd, Jogger, Jaguar<div>jagen, joggen</div>
+JH	Jahr, Jahrhundert, Jugendherberge im Wald<br /><div>juhui, schwedisch Jahaaa sagen</div>
+JI	Shisha, Ski<div>shisha rauchen, ski fahren</div>
+JK	Joker (böser Clown), Jacke
+JL	Jill, Jelly, chillen<div>jaulen, besoffen Joldleln</div>
+JM	Jim Knopf<div>jump, jammern</div>
+JN	Jeans, Jan, Jenny
+JO	Jo-Jo, Yoda, Yoga<div>jonglieren</div>
+JP	Japan, Jupe, Jeep<div>shoppen, japsen</div>
+JQ	böser Joker clown, Jackett, Jacques Dubochet<div>schocken</div>
+JR	Jerry (Maus)<div>vor Tom fliehen, Jahr</div>
+JS	Scheiss, Jesse, Jesus<div>jassen</div>
+JT	Jet, Yeti<div>Jet düsen</div>
+JU	Jurist, Jury, Schuh, Jungle, you, Jude (Kipa)<br>jubeln
+JV	Javier (flirtiger Spanier)
+JW	Juwel<div>Juwelier</div>
+JX	Jux<div>juxen</div>
+KA	Kahn, kahl, Kahlkopf, Kater<div>keine Ahnung Schulter zucken, kapern</div>
+KB	Kaaba, Kebab, Kubb, Krebs<div>Kebab essen, krebsen</div>
+KC	<div>Katze</div>kotzen (aber nicht hässlich - QC)
+KD	Kind, Kunde, Kudos
+KE	Kefen, kein, Kehle
+KF	Kaffee, Kafka, Kraft<div>Kaffee trinken, keifen, kaufen</div>
+KG	Kaugummi, König, King Kong, Kindergarten<div>kugeln vor lachen, kegeln</div>
+KH	Katrin Hecht, khaki, Kalahari Wüste
+KI	Kiefer, Kikki (irgendwas pinkes)
+KJ	Ketchup, Koje<div>kuscheln, Ketchup rumspritzen</div>
+KL	Kleid, Klaue, Kelle, Klo<br /><div>kill, klauen</div>
+KM	Kamm, Komodowaran, Kirstin<div>kämmen, kommen</div>
+KN	Kanne, Kinn, Kanone<br><div>können</div>
+KO	Kot, Koala, K.O., Koks, Kohle<div>verkohlen, ankohlen</div>
+KP	Kipa, Kippe, Kappe<div>kippen</div>
+KQ	Kaktus, King-Queen Transe<div>böse kicken, kacken</div>
+KR	Kirstin, Kronos, Krone<div>kriechen, krönen</div>
+KS	Keks, Kuss, Kissen<div>küssen, kissenschlachten</div>
+KT	Kater, Kit, Kittel, Kette<div>kitten, anketten</div>
+KU	<div>Kuchen, deutsche Kuh</div>lange kuuuscheln
+KV	Kaviar, Kapverden, Klavier<br>kvak
+KW	Kiwi (Vogel, Frucht)
+KX	Koch<div>kochen, kichern</div>
+LA	Laa-Laa, Lama, lang<div>lallen (gut gelaunter Besoffener)</div>
+LB	Labor, Leber, Labrador<div>laborieren, NICHT leben, einen Lob spielen</div>
+LC	Latz, Luzifer (lichtiger Teufel)
+LD	Leder, Leader, Lied<div>leiden, laden</div>
+LE	Lee (Wind/Segel), Leopard<br /><div>leben, anlehnen, leihen</div>
+LF	Leif (Entdecker), Lauf<div>laufen</div>
+LG	Lego, Logo, Liege<br /><div>liegen, legen</div>
+LH	Light House, Lufthansa<div>leihen, lahalen (ein Stotterer besoffen und auf Drogen)</div>
+LI	Liebe, Hexe Lilli, Lilie<div>lieben</div>
+LJ	Lodge / Loge, lasch<br><div>lauschen, logieren</div>
+LK	Lok, Lukas (Evangelist)<div>lecker<br /><div>lecken</div></div>
+LM	Lamm, Leim, Philipp Lahm, Limit<div>ans Limit gehen</div>
+LN	Lena (Sängerin), Lynn Margulis (Verrückte), Land, Luna (Mondgöttin?)<div>landen, lindern</div>
+LO	Lolli, Lob<div>loben, losen, lösen</div>
+LP	Lippe, Lappen<div>lippenlesen</div>
+LQ	<div>Liquor (hochprozentiges), böse Locke</div>böse lecken
+LR	Lord, Lehrer<div>lernen</div>
+LS	List, Lasso, Liste, Loser, Laster<div>loslassen, lassen</div>
+LT	Leiter, Lotto, Letter, Liter<div>laut</div><div>löten</div>
+LU	Lust, Lupe, Lunch, Laute /Lute<div>lugen</div>
+LV	Lava, Lavabo, Livio, Lord Voldemort<div>lavieren</div>
+LW	Löwe, Lawine, Leibwächter<div>lauwarm</div>
+LX	Luchs, Lachs, Lux (Licht), lax<div>wie ein Luchs gucken, leuchten</div>
+MA	Italienische Mamma, Maler, Maul, Mähne<div>mahnen</div>
+MB	Mamba, fetter Mercedes Benz, Emblem?<div>mobben</div>
+MC	Magnuc Carlsen, Mac<br /><div>motzen, miezen</div>
+MD	Made, müde, Medizin<div>meiden</div>
+ME	Meer, Mehl<div>einmehlen</div>
+MF	Muff, Muffin, Megaphon<div>miefen</div>
+MG	Magen, Magnet, mega<div>mögen</div>
+MH	<div>Mahagoni</div>mähen, muhen, määähen (Schaf)
+MI	Milch, Mimmi (Maus), mini, Minirock<div>mieten</div>
+MJ	Biene Maja, Matsch<div>matschen</div>
+MK	Mickey Mouse, Mokka<div>meckern, mäkeln</div>
+ML	Müll, million, Mona Lisa<div>malen, melken</div>
+MN	Manager, Mann, Minions, Minne, Mönch<div>meinen</div>
+MO	Mond, Monat, Mobil, Moor, Moos
+MP	Mappe, Martin Pilhofer, Mops
+MQ	böse Mücke die rumsurrt
+MR	Mars, Miroslav Klose (Miro)<div>murren</div>
+MS	Masse, Massage, Mast,  mies<div>messen, massieren, müssen</div>
+MT	Motte, Matte, mitte, Minotaurus
+MU	Mund, Mumm, Musik, viele Muuuskeln
+MV	Mövenpick, Mats Valk, ein cooler move, Minivan<div>mal versuchen</div>
+MW	Möwe<div>mittelwertig</div>
+MX	Max Park, Mixer, maximal<div>mixen, machen</div>
+NA	Nase, nah
+NB	Noob, neben, Nebel,&nbsp;Nebuchadnezzar (bab. König)<div>(be)nebeln</div>
+NC	Netz, nice<br><div>nutzen</div>
+ND	Nude, Nadel, Nudel<div>nadeln reinstecken</div>
+NE	Neon, neu, nein, Nemo<br><div>nehmen, nennen</div>
+NF	Neffe, Senf, Hanf, fünf, Sernf, Genf<div>knive</div>
+NG	Nagel, Nager (riesige Zähne), nuggets, Nuggi, ...<div>nageln, nagen</div>
+NH	<div>Neuheit, no hate</div>nähen, nähern
+NI	Nils Holgersson, Nil, Niere, Nike, Niete
+NJ	Ninja<div>naschen</div>
+NK	Nacken, Nuuk, der kleine Nick<br /><div>nuckeln, nicken, necken</div>
+NL	Noel, Nulli, Holländer mit Wohnmobil, null<div>nullen</div>
+NM	Nematode, Name, niemand<div>benennen (Name geben), nompfen (laut essen)</div>
+NO	Nobel, Note, Not<div>nötigen</div>
+NP	Nordpol, Nippel, Napf<div>nippen</div>
+NQ	böses Nikotin, böse necken
+NR	Nerd, NR, Narr, Norris<div>nerrrrven</div>
+NS	Nest, nass, Nuss<div>nässen, niessen</div>
+NT	Natter, Nutte
+NU	Nudel, nuklear
+NV	Navi, Nivea, Notvorrat, navis (röm. Schiff)<div>navigieren, nerVen</div>
+NW	Newt (Kaulquappe), Narwal, Neuwert, no water<div>neu wählen</div>
+NX	Nixe, nichts, Nacht<div>nüchtern</div><div>nächtigen</div>
+OA	Oase, Oasis, Ostasiat, oat
+A	Aal
+B	bibbern
+C	Zzz schlafen, Chabis
+D	Dodo
+E	Entesel
+F	Fuffi
+G	Gaggi
+H	Heuhaufen
+I	Iiiiiiiiiiiiii!
+J	Judge, Schach
+K	Kackknödel
+L	launiger Looser
+M	Megaminx
+N	Nonne
+O	Oooohh
+P	Paprika, Puppe
+Q	Quallenquack
+R	Rolls Royce
+S	Schweden
+T	Titanic
+U	Urchiger Uhu
+V	Victory
+W	Wirrwarr
+X	X man
+OB	Obelix, Obama, Oboe, OB<div>oben</div>
+OC	Octopus, Otzenmotzen (Elton), org. Chemie (päng zisch)
+OD	OD, overdose, Ode, Odysseus
+OE	Ösi in Lederhosen (Gabalier), Oese, Öl<div>ölen</div>
+OF	Ofen, Offizier<div>öffnen</div>
+OG	Oger (Shrek), Orgel
+OH	one handed, Ohr<div>Oha!</div>
+OI	verkleidetes Schwein, Oil (ACHTUNG ÖL bei OE)<br /><div>oinken</div>
+OJ	Orange Juice<br /><div>ohje bemitleiden</div>
+OK	Orka<div>okay geben</div>
+OL	Olive, Olli Pocher<div>oll und alt</div>
+OM	Oma, Buddhistischer Mönch (ommm)
+ON	Onkel, An-Schalter, ohne
+OP	Oper, Chirurg, Oprah, Opfer<div>opfern</div>
+OQ	Böser Oktopus mit Gifttentakeln<div>böses ocker</div>
+OR	Orange, Oreo, Orkan, Orden<div>ordnen, orten</div>
+OS	Osiris, Ostern, Ossi im Trabbi
+OT	Otter, Oliver Twist
+OU	Orangutan<div>Ououou, où</div>
+OV	oliVe, ÖV (Bus,Tram), orbital vehicle, Ohrverband
+OW	Michael Owen, Oberweite<div>owe</div>
+OX	Ochse, Oxytoxin (kuschlig)<div>ochsen</div>
+PA	Pappa, Pappe, Papier
+PB	Polarbär, Blei, Paddelboot<div>pubertieren, pöbeln</div>
+PC	Pizza, Patzer, Computer, Pilz, Pelz<div>patzen, putzen, platzen</div>
+PD	Panda, Paddel<div>paddeln</div>
+PE	Pep Guardiola, Pepe, PET Flasche, Peru<div>pee</div>
+PF	Pfau, Pferd, Pflanze, Puffer<br><div>pfeifen, pfuuse, pflanzen</div>
+PG	Pinguin, Pegel<div>pegeln</div>
+PH	pH, Pharao, Phantom<div>physikalisch</div>
+PI	Pippi Langstrumpf, Pi, Pie, Piel
+PJ	Pyjama, Punsch<div>pushen</div>
+PK	Pelikan, Puck, Paket<div>picken, packen</div>
+PL	Pluto, Pille, Pelle, Pult, Puls, Pullover<div>pellen, pullern</div>
+PM	Pumpe, Palme, Pram (Kinderwagen), kleiner ..., Pummelchen, Pumuckl<div>plumpsen, pumpen</div>
+PN	Pick Nick, Panne, Pan, ..., Pendel<div>pendeln, planen, pinnen</div>
+PO	Po, Popcorn, Pol, Polizei<div>ploppen, polen, pökeln, pokern</div>
+PQ	Piquet, böse Pocken, Pickel<div>böse picksen</div>
+PR	Profi, Perücke, Praline, Pranke, Werbung (PR)<div>prahlen, prägen</div>
+PS	Pass, Pisse, Presse, Post<div>passen, pressen, pissen, posten</div>
+PT	Pet (Haustier), Pute, der Pate, Pterodactyl (Flugsaurier), putt<div>poltern</div>
+PU	Puma, Pudel, Puder<div>puhlen, puder, pupsen</div>
+PV	Pulver, privat, Personenverkehr, PVC, pole vault, Pivot table<div>Putschversuch</div>
+PW	Passwort, Power<div>ka-poow, pew (comic sounds)</div>
+PX	Pixel, Pax (Frieden)<div>pochen</div>
+QA	Kater, Qual<div>quälen</div>
+QB	Cube<div>cuben</div>
+QC	<div>Ein Teich voller Kotze, Quaich (komisches schottisches Trinkgefäss)</div><div>hässlich kotzen</div>
+QD	Quader, Quidditch, Querdenker<div>erdrückend knuddeln</div>
+QE	Quereinsteiger, quer<div>quälen</div>
+QF	Quastenflosser<div>böse kiffen</div>
+QG	Quagga<div>böse giggeln</div>
+QH	Böse aggro Kuh<div>Quhhandel</div>
+QI	Quiz<div>quizzen, kikeriki</div>
+QJ	Quatsch, Kojote<div>quatschen</div>
+QK	Quark<div>quaken</div>
+QL	Quelle, Qualle<div>quillen, überquillen</div>
+QM	Qualm<div>qualmen</div>
+QN	Quinoa, quinte, Quanten
+QO	"Go-board (""Ko""), Quote<div>koten</div>"
+QP	Kapern, Quappe (Knochenfisch), quip (cleverer Witz), Monsterkappe<div>equipment, equip, köpfen</div>
+QR	QR Code, Qatar (roter Umhang), Quarter<div>quarteln</div>
+QS	Quaste (Bommel), Quest<br /><div>quasseln, böse küssen</div>
+QT	Quitte, Wattestäbchen (Q Tip)<div>quitten</div>
+QU	Kuckuck
+QV	Quave<br>Köcher (quiver), Kuvert mit Gift
+QW	giftige Kiwi
+QX	Quarks, Queraxt, böser Koch<div>sehr böse kichern</div>
+RA	Ra (Sonnengott)<div>raten, rasen</div>
+RB	Räuber, Robbe, Robben, Rabe, Rübe<div>rauben</div>
+RC	Rotz<div>rotzen, reizen</div>
+RD	Rad, Radio<div>Radau machen</div>
+RE	Reh, Regen<div>reden</div>
+RF	Raffel, Reifen, Raumfähre<div>raffeln, raufen</div>
+RG	Regen, Reggae (Bob Marley), Rage, Ragout<div>regnen, regieren</div>
+RH	Rhino, Rhein, Rheinhesse, Rahm
+RI	Riese<div>rieseln</div>
+RJ	Rutsche, Regenschirm<br /><div>rascheln, rauschen</div>
+RK	Rücken, Rehkitz, Rock, Rakete<div>rücken</div>
+RL	Roller<div>rollen</div>
+RM	Rampe, Römer, Rum, Rima<div>rammen</div>
+RN	Rand, Rind<div>runden, rennen</div>
+RO	rot, Rose, Rohr, Rohling, roh
+RP	Rapper, rapid<div>rappen, raspeln</div>
+RQ	Racket, böse Rackete<div>hard rocken</div>
+RS	Ross, Reis, Rassel<div>reissen, rasseln, rosten, reise</div>
+RT	Ratte, Rotte<br /><div>rotten, retten, rattern</div>
+RU	Route, Ruby, Roulette, rau<div>ruhen, rudern</div>
+RV	Revolver, Raven, Revanche<div>revanchieren</div>
+RW	Rotwein, Rewe<div>regelwidrig</div><div>erweisen</div>
+RX	Rex, Rochen, Rachen<div>rächen, rechnen</div>
+SA	Saal, Saaaft, saaufen
+SB	Säbel<div>sabbern</div>
+SC	Satz, soccer, Sitz<div>sitzen, suck</div>
+SD	Sid (Otto), Soda, Sadist<div>sedieren</div>
+SE	See, Seele<div>sehen</div>
+SF	Safe, Saft, San Francisco (Brücke)<div>seifen</div>
+SG	soggy, Segen, eine St. Galler Bratwurst<div>sagen, segnen</div>
+SH	Schiff, Stonehenge (Stein)<div>schauen, show</div>
+SI	Sieb, Sissi<div>sieben</div>
+SJ	Sascha (Poker-GM)
+SK	Skelett, Sack, Socke<div>suck, skaten</div>
+SL	Selfie, Silikon, Schleim, Slip, Salsa<div>sollen</div>
+SM	Sommer, Sams, Summe<div>summen</div>
+SN	Sonne, Sand, Schnee<div>sonnen, sinnen, sein, snö</div>
+SO	Sofa, Sohle, Sog
+SP	Spaghetti, Spatz, spitz, Suppe, Spinne<div>spitzen, spinne</div>
+SQ	Squirrel, böser Sockel, Squash<div>socken anwerfen (böse)</div>
+SR	Senior (Sr), Sarg, Sirene<div>schrillende Sirene</div>
+ST	Stern, Stuhl, stumm<div>stottern, stürzen, stützen</div>
+SU	super, Suada (Wortschwall)<br><div>suchen, suhlen</div>
+SV	Sven Hannawald (Skispringer), Seven<div>save, svar</div>
+SW	Schwan, swag<div>schwingen</div>
+SX	Saxophon, ...
+TA	Taler, Tagi, Tal<div>tagen?</div>
+TB	Taube, Tube, Tabea, Tobi<div>taub</div>
+TC	Tacos, Tennisclub, Tanz<div>tanzen</div>
+TD	Teddy, Tadeus, tandem<div>tadeln</div>
+TE	Teer, Telefon (mit Kabel), Tee<div>Tee trinken</div>
+TF	Töff, Tofu, Teufel, Taufliege<div>taufen</div>
+TG	Tiger, Tag, Toga<div>taggen, tigern, taugen</div>
+TH	Thor
+TI	Tiefe, tief, Tier
+TJ	Tisch, Trojanisches Pferd<div>täuschen, tauschen</div>
+TK	Thek, truck, Tacker<div>tuckern, ticken</div>
+TL	Teller, Tell<div>teilen</div>
+TM	Tim, Tom, Tomate<br>trimmen
+TN	Tanne, Tonne, 10, Teint, TNT (Dynamit)<div>tanken</div>
+TO	tot, Ton, Toilette, Tor<div>toben, tönen</div>
+TP	Topf, Tollpatsch, top<div>tapfer<br><div>töpfern, toppen</div></div>
+TQ	Tequila, böse Zecke (Tick)<div>böse ticken</div>
+TR	Troll, Tarantula, Tram, Traktor, Torf<div>trauen, treten</div>
+TS	Tasse, Toast, Tsunami<div>testen, tasten</div>
+TU	Tunika, Thunfisch, Tutu (Ballerina), Tüte<div>tuten, tüten, tauen</div>
+TV	TV, TÜV, Turnverein<div>TV gucken</div>
+TW	Torwart (Tim Wiese), Tower
+TX	Taxi, Cowboy aus Texas<div>texten</div>
+UA	Ua (Keule), uralt, United Airlines
+UB	U-Boot, Usain Bold, übel<div>üben</div>
+UC	undercover, Ouzo, Unicorn (Einhorn), Urzeit<div>unzufrieden</div><div>umziehen</div>
+UD	Oud (orientalische Laute), Udo, undicht<br><div>umdrehen</div>
+UE	ultimate ears Böxli<div>übel, uneben</div>
+UF	Ufer, UFO<div>ufern</div>
+UG	Ugly Uggs Schuhe<div>ungern</div><div>umgeben, umgehen, übergeben</div>
+UH	Uhr, Uhu
+UI	Einradfahrer (Unicyclist), Uni, unterirdisch<div>uiii sagen</div>
+UJ	Uschi Glas
+UK	Ukulele, UK<div>umkehren, umkippen</div>
+UL	Ulli, Ulk, Ulme, Ulcus (Geschwür)
+UM	<div>Umschlag</div>umarmen, umbringen
+UN	Unke, Uno, Blauhelm, Ungeheuer<div>unartig</div><div>unternehmen</div>
+UO	Uno, Uropa, Uroma, Unordnung<div>umordnen</div>
+UP	Seven up, UP Film (Ballon), üppig<div>umparken</div>
+UQ	Ubiquitin, Ucker, uncool, Nepommuk<div>unqualifiziert</div>
+UR	Urin, Urmel, Ursli /Bär, Unrat<div>unterricht</div>
+US	rUsse, Unsinn, Ami mit Burger<div>use</div>
+UT	Untier (Monster), Uterus, untauglich, untreu, Ute
+UV	UV Licht, Hoover<div>unvorsichtig</div>
+UW	Uwe Mefferts, Umwelt, Unterwelt (Kerberos), unter Wasser<div>unterwerfen</div>
+UX	Tuxedo (Smoking), Ehefrau (uxor)<div>Fuchs ohne Füsse</div>
+VA	Vater, Vag<div>verachten</div>
+VB	Volleyball, Vagabund<div>vorbei</div>
+VC	vice, Vielzahl, vollzählig, 14<div>verzehren, verzieren</div>
+VD	Video, voodoo<div>verdauen</div>
+VE	Vene, Vogelfee<div>verehren</div>
+VF	Vorfahre (Greis), Venus Fliegenfalle<div>verfassen, verführen</div>
+VG	Vogel, Vegetarier<div>vergraulen, vorgeben</div>
+VH	<div>Vieh</div>vorhaben
+VI	Vitamin, Vision, Viertel, Violine, viel<div>vierteln</div>
+VJ	Vujo Gavric, Veilchen (blaues Auge, Pflanze)<div>pfuschen</div>
+VK	schwedischer Vikingar
+VL	voll, verliebt<div>vorlesen, verletzen</div>
+VM	Vampir<div>vermöbeln</div>
+VN	Van, Venus<div>vernehmen</div>
+VO	langer Vooogel, Volt, Volvo, vorne
+VP	Viper, Vollpfosten<div>verprügeln</div>
+VQ	Bauchredner (Ventriloquist)
+VR	Vorrat, VR Brille<div>verreisen, verraten</div>
+VS	Vase, Vesuv, Visum<div>vorsagen, versuchen</div>
+VT	Vetter, Tierarzt in grün (Vet)<div>vortanzen, voten</div>
+VU	Vulkan, Vuvuzela
+VW	VW, schräger Verwandter, Verwirrter<div>verwesen, verwandeln</div>
+VX	Vex (Lego Roboter), Vox (Stimme, TV)<br /><div>vortexen</div>
+WA	Wal, Wahl<div>wählen, waten</div>
+WB	Wallaby, Wabe<div>weben</div>
+WC	WC, Witz<div>wetzen</div>
+WD	Wedel, Wedding (Hochzeit, heiraten), Hanf (Weed)<div>wedeln</div>
+WE	Wehr, Wein<div>wehren, wehen</div>
+WF	Waffel, Waffe, Warf (Star Trek)<div>wuff wuff (bellen)</div>
+WG	Weggli, Wildgans (Nils Holgersson), Waggon, Perücke (Wig)<br><div>wagen</div>
+WH	Waldhut, Wacholder, wahr<br><div>wehen, wiehern</div>
+WI	Wiege, Wiesel<br /><div>wiegen</div>
+WJ	Hexe (Witch), Potato Wedges, Wäsche<br /><div>waschen, wischen</div>
+WK	Weinkönigin, Wecker, Wok (Pfanne), Wickie (VK ist Vikingar)<div>wickeln</div>
+WL	Wall, Welle<div>wollen, weilen</div>
+WM	Wurm, Waldmeister, Wassermelone, Weltmeister<div>wärmen, wimmern</div>
+WN	Wind, Wand, Wanne, wund, (Wein ist WE)<div>winden, weinen</div>
+WO	Wolf<div>wohnen, verloren gehen (Wo??)</div>
+WP	Wappen<div>wappnen, wippen</div>
+WQ	Wecker, Wacken Festival mit viel Bier und Drogen<div>wickiwacki</div>
+WR	Welt Rekord, Ware, Wort, Krieg (war), wirr<div>werden, wirren</div>
+WS	Wasser, Wasabi<div>wissen</div>
+WT	Wut, Watte<div>wütend rumtollen, wüten</div>
+WU	Wurst, Wunder<div>wundern, wuseln</div>
+WV	Weaver (Weber am Webstuhl), Wolverine<div>wervursteln</div>
+WX	Wachs, Wuchs<div>wachsen, ..., wechseln</div>
+XA	Geister Arm / Aal<div>seeehr alt</div>
+XB	Chabis, Geister Baum / Bein<div>seeehr böse</div>
+XC	Zyklop, Exzem<div>seeehr zickig</div>
+XD	Geister Dachs, xD emoji<div>seeehr dünn /dick</div>
+XE	Geister Egel, Xenon<div>seeehr edel / eifrig</div>
+XF	Geister Fuchs<div>seeehr flink</div>
+XG	xing, Geister Gans / Gorilla<div>seeehr grausam</div>
+XH	Geister Hund<div>seeehr hart</div>
+XI	Geister Insel, Xylophon<div>seeehr innig / irre</div>
+XJ	Geister Jaguar-Fahrer<div>seeehr jung</div>
+XK	exakt, Geister Känguruh / König<div>seeehr klug</div>
+XL	Geister Lama, extra gross<div>seeehr laut / lang</div>
+XM	X-Man, Weihnachten, Geister Mann<div>seeehr mager / männlich / mutig</div>
+XN	Geister Nonne /Nutte /...<div>seeehr nüchtern / nackt</div>
+XO	Geister Otter<div>seeehr offen</div>
+XP	Expedition, Geister Python / Pfau / Pikachu<div>seeehr posh / prüde</div>
+XQ	Geister Qualle<div>seeehr quengelig / quälend</div>
+XR	X-Ray / röntgen, Geister Ratte<div>seeehr riesig / rot</div>
+XS	Geister Spinne<div>seeehr schmal / klein</div>
+XT	Geister Tanne / Tier / Taube<div>seeehr taub</div>
+XU	chinese, Geister Uhr / Uhu<div>seeehr übel</div>
+XV	Xaver, Geister Vampir<div>seeehr verräterisch, 15</div>
+XW	Extrawurst, Geister Wolf / Wal<div>seeehr wütend</div>
