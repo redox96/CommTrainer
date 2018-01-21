@@ -7,13 +7,11 @@ def show_words(letterpair, buffer):
     with open ("data/words.csv", "r", newline="") as intput:
         reader = csv.reader(intput,delimiter =";")
         words = list(reader)
-        #print(words)
-        words_out=""
         for i in range(0,total):
-            if words[i][0] == letterpair:
+            if words[i][0] == str(letterpair):
                 words_out = words[i][1]
-                print(words_out)
-                return words_out
+                #print(words_out)
+                return str(words_out)
             else:
                 pass
 
@@ -24,11 +22,10 @@ def show_words2(letterpair, buffer):
     with open ("data/words.csv", "r", newline="") as intput:
         reader = csv.reader(intput,delimiter =";")
         words = list(reader)
-        #print(words)
         for i in range(0,total):
-            if words[i][0] == letterpair:
+            if words[i][0] == str(letterpair):
                 adjs_out = words[i][2]
-                return adjs_out
+                return str(adjs_out)
             else:
                 pass
 
@@ -39,16 +36,15 @@ def show_words3(letterpair, buffer):
     with open ("data/words.csv", "r", newline="") as intput:
         reader = csv.reader(intput,delimiter =";")
         words = list(reader)
-        #print(words)
         for i in range(0,total):
-            if words[i][0] == letterpair:
+            if words[i][0] == str(letterpair):
                 verbs = words[i][3]
-                return verbs
+                return str(verbs)
             else:
                 pass
 
 
 
-res = show_words("AB", ["A","E","R"])
-print(res)
-
+#res = show_words("AB", ["A","E","R"])
+#print(res)
+#print(type(res))
