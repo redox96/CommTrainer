@@ -54,6 +54,7 @@ class MyApp(Frame):
         self.letters = StringVar(value=None)
         self.hint_used = IntVar(value=None)
         self.learning = IntVar(value=0)
+        self.randlet = StringVar(value=0)
 
         self.comm_type.set(NONE)
         for a in self.all_types:
@@ -124,12 +125,14 @@ class MyApp(Frame):
         if event.widget==self.buttonstart:
             print(self.cutoff)
             comms_groups = group_for_rand(self.cutoff,self.comm_type.get())
-            self.randomletters=StringVar(value = comm_chooser(comms_groups))
-            print(self.randomletters.get())
+            #self.randomletters=StringVar(value = comm_chooser(comms_groups))
+            self.randlet = comm_chooser(comms_groups)
+            print(self.randlet)
+            #print(self.randomletters.get())
 
-            self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
+            self.letterpair.configure(text = self.randlet, font=(None, 66)) #, "bold"
             if self.learning.get() == 1:
-                text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
+                text_comm = show_comm(self.randlet,self.buffer,self.comm_type.get())
                 print(text_comm)
                 self.successlabel.configure(text = text_comm)
             else:
@@ -157,11 +160,13 @@ class MyApp(Frame):
 
         # TO DO
         elif event.widget == self.words_button:
-            self.words = show_words(self.letterpair, self.buffer)
-            self.words2 = show_words2(self.letterpair, self.buffer)
-            self.words3 = show_words3(self.letterpair, self.buffer)
+            print(self.randlet, self.buffer)
+            self.words = show_words(self.randlet, self.buffer)
+            print(show_words(self.randlet,self.buffer))
+            self.words2 = show_words2(self.randlet, self.buffer)
+            self.words3 = show_words3(self.randlet, self.buffer)
             print(self.words)
-            self.cutoff_output.configure(text = [self.words, "test"])
+            self.cutoff_output.configure(text = self.words)
             self.cutoff_output2.configure(text = self.words2)
             self.cutoff_output3.configure(text = self.words3)
 
@@ -177,51 +182,49 @@ class MyApp(Frame):
 
     def eventKeyPress(self,event):
         if event.keysym == "Return":
-            randlet = self.randomletters.get()
-
             if self.hint_used == 1:
                 self.d_time = self.d_time + 10
                 self.hint_used == 0
             else:
                 self.hint_used == 0
 
-            save_to_results(randlet,self.d_time, self.comm_type.get())
+            save_to_results(self.randlet,self.d_time, self.comm_type.get())
 
-            [self.times_new, self.counter] = update_stats(randlet, self.d_time, self.buffer, self.comm_type.get())
+            [self.times_new, self.counter] = update_stats(self.randlet, self.d_time, self.buffer, self.comm_type.get())
             print(self.times_new)
             print(self.counter)
-            self.successlabel.configure(text= [randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
+            self.successlabel.configure(text= [self.randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
 
         elif event.keysym == "h":
-            text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
+            text_comm = show_comm(self.randlet,self.buffer,self.comm_type.get())
             print(text_comm)
             self.successlabel.configure(text = text_comm)
             self.hint_used = 1
 
         elif event.keysym == "Down":
-            randlet = self.randomletters.get()
             if self.hint_used == 1:
                 self.d_time = self.d_time + 10
                 self.hint_used == 0
             else:
                 self.hint_used == 0
 
-            save_to_results(randlet,self.d_time, self.comm_type.get())
+            save_to_results(self.randlet,self.d_time, self.comm_type.get())
 
-            [self.times_new, self.counter] = update_stats(randlet, self.d_time, self.buffer, self.comm_type.get())
+            [self.times_new, self.counter] = update_stats(self.randlet, self.d_time, self.buffer, self.comm_type.get())
             print(self.times_new)
             print(self.counter)
-            self.successlabel.configure(text= [randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
-
+            self.successlabel.configure(text= [self.randlet, "Avrg:", round(float(self.times_new),2), "Count:", self.counter])
             comms_groups = group_for_rand(self.cutoff,self.comm_type.get())
-            self.randomletters=StringVar(value = comm_chooser(comms_groups))
-            print(self.randomletters.get())
 
-            self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
+
+            self.randlet = comm_chooser(comms_groups)
+            print(self.randlet)
+
+            self.letterpair.configure(text = self.randlet, font=(None, 66)) #, "bold"
             self.result.set(event.time)
 
             if self.learning.get() == 1:
-                text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
+                text_comm = show_comm(self.randlet,self.buffer,self.comm_type.get())
                 print(text_comm)
                 self.successlabel.configure(text = text_comm)
             else:
