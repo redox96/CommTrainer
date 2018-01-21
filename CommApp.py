@@ -53,13 +53,16 @@ class MyApp(Frame):
         self.buffer = StringVar(value="Corner")
         self.letters = StringVar(value=None)
         self.hint_used = IntVar(value=None)
+        self.learning = IntVar(value=0)
 
         self.comm_type.set(NONE)
         for a in self.all_types:
             b = Radiobutton(self.topframe, text= a, value = a, variable = self.comm_type, command = self.chosen_type,
                             font=(None,15), indicatoron=0)
-            b.pack(side="left", pady=15, padx = 15)
-
+            b.pack(side="left", pady=15, padx = 12)
+        self.learning_button = Checkbutton(self.topframe, text = "L", variable = self.learning ,font = (None,15, "bold"), indicatoron = 0,
+                                           command = self.learningmode)
+        self.learning_button.pack(pady=15, padx =20,ipadx = 4)
         self.successlabel=Label(self,font=(None,30),pady=30, text="Choose Comm Type", fg="Red")
         self.successlabel.pack()
         self.letterpair=Label(self,text="Letterpair", font=(None, 66))
@@ -104,6 +107,11 @@ class MyApp(Frame):
         create_output_file(self.letters, self.comm_type.get())
         recover_results(self.buffer, self.comm_type.get())
 
+    def learningmode(self):
+        if self.learning.get() == 1:
+            print("pressed")
+        else:
+            print("unpressed")
 
     def createBindings(self):
         self.bind_all("<ButtonPress>",self.eventButtonPress)
@@ -120,7 +128,23 @@ class MyApp(Frame):
             print(self.randomletters.get())
 
             self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
+            if self.learning.get() == 1:
+                text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
+                print(text_comm)
+                self.successlabel.configure(text = text_comm)
+            else:
+                pass
             self.result.set(event.time)
+
+        elif event.widget==self.learning_button:
+            print("test")
+            if self.learning.get() == 0:
+                print(self.learning.get())
+                self.successlabel.configure(text = "Learning mode on")
+            elif self.learning.get() == 1:
+                self.successlabel.configure(text = "Learning mode off")
+            else:
+                pass
 
         elif event.widget== self.cutoff_button:
             self.cutoff=float(self.cutoff_box.get())
@@ -196,11 +220,18 @@ class MyApp(Frame):
             self.letterpair.configure(text = self.randomletters.get(), font=(None, 66)) #, "bold"
             self.result.set(event.time)
 
+            if self.learning.get() == 1:
+                text_comm = show_comm(self.randomletters.get(),self.buffer,self.comm_type.get())
+                print(text_comm)
+                self.successlabel.configure(text = text_comm)
+            else:
+                pass
+
         else:
             self.d_time = IntVar(value=0)
             self.d_time = (event.time - self.result.get())/1000 #in Seconds
             self.timer.configure(text=self.d_time)
-            self.successlabel.configure(text="Press Enter to save the result \n Down to save and continue \n or h to show the comm")
+            #self.successlabel.configure(text="Press Enter to save the result \n or h to show the comm")
             self.hint_used = 0
 
 root = Tk()
