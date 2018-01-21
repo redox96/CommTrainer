@@ -16,7 +16,7 @@ def cutoff_stats(cutoff, buffer, type):
             else:
                 continue
 
-        print(above_cutoff)
+        #print(above_cutoff)
         return above_cutoff
 
 
