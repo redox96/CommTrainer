@@ -1,7 +1,7 @@
 AB;[Rw' U: [U r U', R]]
-BA;[Rw' U: [U r U', R]] inv
+BA;[Rw' U: [R, U r U']]
 AD;[Lw' U: [L, U l U']]
-DA;[Lw' U: [L, U l U']] inv
+DA;[Lw' U: [U l U', L]]
 AE;[x' U: [U r2 U', L']]
 EA;[x' U: [U r2 U', L']] inv
 AF;[L: [r' D r, U2]]
@@ -66,8 +66,8 @@ BN;[R D': [r, U' R' U]]
 NB;[R D': [r, U' R' U]] inv
 BO;[r' D' r, U]
 OB;[r' D' r, U] inv
-BP;[z R: [U l' U', R]]
-PB;[z R: [U l' U', R]] inv
+BP;[z R: [U l' U', R]], R' D'
+PB;[z R: [U l' U', R]], R' D', inv
 BQ;[R': [r', U' R U]]
 QB;[R': [r', U' R U]] inv
 BR;[z': [L', U' l2 U]]
@@ -142,8 +142,8 @@ EM;[Rw' U: [r2, U R U']]
 ME;[Rw' U: [r2, U R U']] inv
 EN;[x' U': [U' L' U, r2]]
 NE;[x' U': [U' L' U, r2]] inv
-EO;[Rw' U: [r2, U R' U']]
-OE;[Rw' U: [r2, U R' U']] inv
+EO;[Rw' U: [r2, U R' U']], D'
+OE;[Rw' U: [r2, U R' U']], D',  inv
 EP;[r' U: [r2, U R U']]
 PE;[r' U: [r2, U R U']] inv
 EQ;[L' U' L U, r]
@@ -180,8 +180,8 @@ FN;[z' l': [U L' U', l2]]
 NF;[z' l': [U L' U', l2]] inv
 FO;[y': [U' r U, L]]
 OF;[y': [U' r U, L]] inv
-FP;[R' y': [U' r U, L]]
-PF;[R' y': [U' r U, L]] inv
+FP;[R' y: [U' r U, L]]
+PF;[R' y: [U' r U, L]] inv
 FQ;[U' L' U, r]
 QF;[U' L' U, r] inv
 FR;[z: [r, U R U']]
@@ -210,8 +210,8 @@ GL;[D: [U L' U', r]]
 LG;[D: [U L' U', r]] inv
 GM;[D x: [r, U R' U']]
 MG;[D x: [r, U R' U']] inv
-GN;[y' U: [U L U', r]]
-NG;[y' U: [U L U', r]] inv
+GN;[y' U: [U L U', r]], D
+NG;[y' U: [U L U', r]], D, inv
 GO;[y': [r U r', D2]]
 OG;[y': [r U r', D2]] inv
 GP;[y': [R', U r U']]
@@ -224,14 +224,14 @@ GS;[y': [r U r', D]]
 SG;[y': [r U r', D]] inv
 GT;[D: [U' R' U, r]]
 TG;[D: [U' R' U, r]] inv
-GU;[y': [R2, U r U']]
-UG;[y': [R2, U r U']] inv
+GU;"[y': [R2, U r U']], [D; U' R2 U, r]"
+UG;"[y': [R2, U r U']], [D; U' R2 U, r], inv"
 GV;[R2: [U, r' D r]]
 VG;[R2: [U, r' D r]] inv
 GW;[x: [U' L' U, r2]]
 WG;[x: [U' L' U, r2]] inv
-GX;[y' Rw: [D2, r U' r']]
-XG;[y' Rw: [D2, r U' r']] inv
+GX;[y' Rw: [D2, r U' r']], [y' Lw: r U r', D2]
+XG;[y' Rw: [D2, r U' r']], [y' Lw: r U r', D2], inv
 HI;[x' Rw': [r' D r, U2]]
 IH;[x' Rw': [r' D r, U2]] inv
 HJ;[x r': [U, r' D r]]
@@ -242,8 +242,8 @@ HL;[z: [U' R U, l]]
 LH;[z: [U' R U, l]] inv
 HM;[x' U: [r2, U R U']]
 MH;[x' U: [r2, U R U']] inv
-HN;[Rw' U: [U L U', r]]
-NH;[Rw' U: [U L U', r]] inv
+HN;[Rw' U': [U' L U, r2]]
+NH;[Rw' U': [U' L U, r2]] inv
 HO;[x' U': [r, U' R' U]]
 OH;[x' U': [r, U' R' U]] inv
 HP;[z l: [U' R U, l2]]
@@ -264,12 +264,12 @@ HW;[r': [U' L U, r2]]
 WH;[r': [U' L U, r2]] inv
 HX;[Dw': [r2, U' R' U]]
 XH;[Dw': [r2, U' R' U]] inv
-IJ;[Lw2 U': [R, U' l U]]
-JI;[Lw2 U': [R, U' l U]] inv
+IJ;[Lw2 U': [R, U' l U]], l U'
+JI;[Lw2 U': [R, U' l U]], l U', inv
 IK;[3Lw' D': [r' D r, U2]]
 KI;[3Lw' D': [r' D r, U2]] inv
-IL;[Lw2 U: [L, U l U']]
-LI;[Lw2 U: [L, U l U']] inv
+IL;[Lw2 U: [L, U l U']], l U
+LI;[Lw2 U: [L, U l U']], l U, inv
 IM;[Rw' U': [U' r2 U, R]]
 MI;[Rw' U': [U' r2 U, R]] inv
 IN;[x r': [r' D' r, U2]]
@@ -312,8 +312,8 @@ JR;[z: [r2, U R U']]
 RJ;[z: [r2, U R U']] inv
 JS;[U': [U' r' U, R]]
 SJ;[U': [U' r' U, R]] inv
-JT;[x': [R2, U' r2 U]]
-TJ;[x': [R2, U' r2 U]] inv
+JT;[x': [R2, U r U']]
+TJ;[x': [R2, U r U']] inv
 JU;[U': [U' l2 U, R]]
 UJ;[U': [U' l2 U, R]] inv
 JV;[R', D r2 D']
@@ -350,8 +350,8 @@ KX;[U L2 U', r]
 XK;[U L2 U', r] inv
 LM;[z D': [l', U' R U]]
 ML;[z D': [l', U' R U]] inv
-LN;[r': [U', r' D' r]]
-NL;[r': [U', r' D' r]] inv
+LN;[x r': [U', r' D' r]]
+NL;[x r': [U', r' D' r]] inv
 LO;[D': [r, U L' U']]
 OL;[D': [r, U L' U']] inv
 LP;[z: [U' R U, l']]
@@ -370,8 +370,8 @@ LV;[D: [U L' U', r2]]
 VL;[D: [U L' U', r2]] inv
 LW;[r2, U L' U']
 WL;[r2, U L' U'] inv
-LX;[L, D r2 D']
-XL;[L, D r2 D'] inv
+LX;[L, D' r2 D]
+XL;[L, D' r2 D] inv
 MN;[x': [R, U' r2 U]]
 NM;[x': [R, U' r2 U]] inv
 MO;[R2, D' r' D]
@@ -424,8 +424,8 @@ OS;[D, l U2 l']
 SO;[D, l U2 l'] inv
 OT;[D': [U' R' U, r]]
 TO;[D': [U' R' U, r]] inv
-OU;[x Rw': [U2, r' D' r]]
-UO;[x Rw': [U2, r' D' r]] inv
+OU;"[x Rw': [U2, r' D' r]], [D'; r, U L2 U']"
+UO;"[x Rw': [U2, r' D' r]], [D'; r, U L2 U'], inv"
 OV;[y' r: [D2, r U r']]
 VO;[y' r: [D2, r U r']] inv
 OW;[Rw': [U R' U', r2]]
@@ -450,8 +450,8 @@ PX;[Rw: [r D' r', U']]
 XP;[Rw: [r D' r', U']] inv
 QR;[U L U', r']
 RQ;[U L U', r'] inv
-QS;[y': [L2, U r U']]
-SQ;[y': [L2, U r U']] inv
+QS;"[y': [L2, U r U']], [D'; r, U R2 U']"
+SQ;"[y': [L2, U r U']], [D'; r, U R2 U'], inv"
 QT;[U' R' U, r']
 TQ;[U' R' U, r'] inv
 QU;[y: [L2, U' r' U]]
@@ -474,12 +474,12 @@ RW;[r2, U L U']
 WR;[r2, U L U'] inv
 RX;[x': [U' r U, L]]
 XR;[x': [U' r U, L]] inv
-ST;[U': [R, U' r' U]]
-TS;[U': [R, U' r' U]] inv
+ST;[U': [R, U' l U]]
+TS;[U': [R, U' l U]] inv
 SU;[U' x' L': [U R U', l]]
 US;[U' x' L': [U R U', l]] inv
-SV;[x' U': [U r U', R']]
-VS;[x' U': [U r U', R']] inv
+SV;[x' U: [U r U', R']]
+VS;[x' U: [U r U', R']] inv
 SW;[U r: [r U' r', D2]]
 WS;[U r: [r U' r', D2]] inv
 SX;[x' U': [U' r U, L]]
@@ -492,12 +492,12 @@ TW;[r2, U' R' U]
 WT;[r2, U' R' U] inv
 TX;[D': [r2, U' R' U]]
 XT;[D': [r2, U' R' U]] inv
-UV;[r y: [D, l' U l]]
-VU;[r y: [D, l' U l]] inv
+UV;[r y: [D, l' U l]], D
+VU;[r y: [D, l' U l]], D, inv
 UW;[x: [U2, Lw' U2 r U2 Lw]]
 WU;[x: [U2, Lw' U2 r U2 Lw]] inv
-UX;[Rw y': [D', l' U' l]]
-XU;[Rw y': [D', l' U' l]] inv
+UX;"[Rw y': [D', l' U' l]], [U; L2, U l2 U']"
+XU;"[Rw y': [D', l' U' l]], [U; L2, U l2 U'], inv"
 VW;[U' R2 U, r2] inv
 WV;[U' R2 U, r2]
 VX;[R D': [r2, U' R U]]
