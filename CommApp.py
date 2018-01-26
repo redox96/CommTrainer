@@ -154,7 +154,7 @@ class MyApp(Frame):
             print(self.cutoff)
             self.counts_total=count_stats2(self.comm_type.get())
             self.above_cutoff=cutoff_stats(self.cutoff,self.buffer,self.comm_type.get())
-            self.cutoff_output.configure(text = [self.above_cutoff,"comms","above","and", len(self.letters)-self.above_cutoff, "comms","below","the","cutoff"])
+            self.cutoff_output.configure(text = [self.above_cutoff,"comms","above","and", len(self.letters)-self.above_cutoff-1, "comms","below","the","cutoff"])
             self.cutoff_output3.configure(text = [self.counts_total,"tries","up","to","now"],font=(None,15))
             self.cutoff_output2.configure(text=cutoff_motivation(self.above_cutoff,self.counts_total),fg="Blue",font=(None,15))
 
