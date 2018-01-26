@@ -2,7 +2,12 @@ import csv
 
 def show_words(letterpair, buffer):
     tot_num = 24 - len(buffer)
-    total = tot_num*(tot_num-1)
+    if type == "Corner":
+        total = tot_num*(tot_num-1)-21
+    elif type == "Edge":
+        total = tot_num*(tot_num-1)-22
+    else:
+        total = tot_num*(tot_num-1)
 
     with open ("data/words.csv", "r", newline="") as intput:
         reader = csv.reader(intput,delimiter =";")

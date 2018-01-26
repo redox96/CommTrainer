@@ -2,7 +2,12 @@ import csv
 
 def recover_results(buffer, type):
     tot_num = 24 - len(buffer)
-    total = tot_num*(tot_num-1)
+    if type == "Corner":
+        total = tot_num*(tot_num-1)-21
+    elif type == "Edge":
+        total = tot_num*(tot_num-1)-22
+    else:
+        total = tot_num*(tot_num-1)
 
     with open ("data/output_test_%s.csv"%(type), "r", newline="") as output:
         readerOUT = csv.reader(output)

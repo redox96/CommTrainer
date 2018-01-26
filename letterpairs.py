@@ -32,7 +32,7 @@ def buffer(type):
 def twist(type):
     # for UBL Buffer
     if type == "Corner":
-        twists = ["BQ", "BN", "NQ", "QB", "NQ", "BN", "CM", "MC", "CJ", "JC", "JM", "MJ", "DF", "FD", "DI", "ID", "IF", "FI",
+        twists = ["BQ", "BN", "NQ", "QB", "QN", "NB", "CM", "MC", "CJ", "JC", "JM", "MJ", "DF", "FD", "DI", "ID", "IF", "FI",
                   "LU", "UL", "UG", "GU", "GL", "LG", "KP", "PK", "VK", "KV", "PV", "VP", "XS", "SX", "SH", "HS", "XH", "HX",
                   "WO", "OW", "WT", "TW", "TO", "OT"]
     else:
@@ -50,8 +50,6 @@ def flip(type):
 
 # Create List (letters) with all possible letter pairs
 def create_letterpair(buffer, type):
-    specials = [flip(type),twist(type)]
-
     tot_num = 24 - len(buffer)
     letters_AX = list(map(chr, range(ord('A'), ord('X')+1)))
 
@@ -78,13 +76,12 @@ def create_letterpair(buffer, type):
         letters[i][0] = lett[i][0]+lett[i][1]
 
 
-
     del letters[::(tot_num+1)]
 
     return(letters)
 
 
-
+#letter = create_letterpair(["K","U"],"Edge")
 
 
 #letter = create_letterpair(["A","E","R"])
@@ -107,3 +104,36 @@ def random_LP(buffer, letters):
     let_pair_only = let_pair[0]
     #print(let_pair_only)
     return let_pair_only
+
+
+
+
+
+def remove_twistflips(letters, type):
+    flips = flip("Edge")
+    twists = twist("Corner")
+
+    if type == "Corner":
+        idx_twists = []
+        for i in range(len(letters)-1):
+            if letters[i][0] in twists:
+                idx_twists.append(i)
+
+        for j in range(len(idx_twists)):
+            del letters[idx_twists[j]]
+            return letters
+
+    elif type == "Edge":
+        idx_flips = []
+        for i in range(len(letters)-1):
+            if letters[i][0] in flips:
+                idx_flips.append(i)
+
+        for j in range(len(idx_flips)):
+            del letters[idx_flips[j]]
+            return letters
+    else:
+        return letters
+
+
+#remove_twistflips(letter, "Edge")
