@@ -32,17 +32,19 @@ def buffer(type):
 def twist(type):
     # for UBL Buffer
     if type == "Corner":
-        twists = ["BQ", "BN", "NQ", "QB", "QN", "NB", "CM", "MC", "CJ", "JC", "JM", "MJ", "DF", "FD", "DI", "ID", "IF", "FI",
-                  "LU", "UL", "UG", "GU", "GL", "LG", "KP", "PK", "VK", "KV", "PV", "VP", "XS", "SX", "SH", "HS", "XH", "HX",
-                  "WO", "OW", "WT", "TW", "TO", "OT"]
+        twists = ["BN", "BQ", "CJ", "CM", "DF", "DI", "FD", "FI", "GL", "GU", "HS", "HX", "ID", "IF", "JC", "JM", "KP", "KV",
+                  "LG", "LU", "MC", "MJ", "NB", "NQ", "OT", "OW", "PK", "PV", "QB", "QN", "SH", "SX", "TO", "TW", "UG", "UL",
+                  "VK", "VP", "WO", "WT", "XH", "XS"]
     else:
         twists = []
     return twists
 
+#twist("Corner")
+
 def flip(type):
     # for DF Buffer
     if type == "Edge":
-        flips = ["AQ", "QA", "BM", "MB", "CI", "IC", "DE", "ED", "FL", "LF", "GX", "XG", "HR", "RH", "JP", "PJ", "NT", "TN", "OV", "VO", "SW", "WS"]
+        flips = ["AQ", "BM", "CI", "DE", "ED", "FL", "GX", "HR", "IC", "JP", "LF", "MB", "NT", "OV", "PJ", "QA", "RH", "SW", "TN", "VO", "WS", "XG"]
     else:
         flips = []
 
@@ -86,8 +88,9 @@ def create_letterpair(buffer, type):
 
 #letter = create_letterpair(["A","E","R"])
 
+#_Test until 26.1.2018
 def create_output_file(letters, type):
-    with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
+    with open("data/output_%s.csv"%(type), "w", newline="") as output:
         writer = csv.writer(output)
         for val in letters:
             writer.writerow(val)
@@ -120,18 +123,21 @@ def remove_twistflips(letters, type):
                 idx_twists.append(i)
 
         for j in range(len(idx_twists)):
-            del letters[idx_twists[j]]
-            return letters
+            del letters[idx_twists[j]-j]
+
+        return letters
 
     elif type == "Edge":
         idx_flips = []
-        for i in range(len(letters)-1):
+        for i in range(len(letters)):
             if letters[i][0] in flips:
                 idx_flips.append(i)
 
         for j in range(len(idx_flips)):
-            del letters[idx_flips[j]]
-            return letters
+            del letters[idx_flips[j]-j]
+
+        return letters
+
     else:
         return letters
 

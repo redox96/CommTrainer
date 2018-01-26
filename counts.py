@@ -4,7 +4,7 @@ def count_stats(buffer, type):
     tot_num = 24 - len(buffer)
 
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21 #minus twists
+        total = tot_num*(tot_num-1)-42 #minus twists
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22 #minus flips
     else:
@@ -12,7 +12,7 @@ def count_stats(buffer, type):
 
     counts_total = 0
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         result_list = list(reader)
 

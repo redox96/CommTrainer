@@ -4,7 +4,7 @@ def group_for_rand(cutoff, type):
     oldness = 100
 
     # get repeaters
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         results_output = list(reader)
         new = []

@@ -2,11 +2,16 @@ import csv
 
 def cutoff_stats(cutoff, buffer, type):
     tot_num = 24 - len(buffer)
-    total = tot_num*(tot_num-1)
+    if type == "Corner":
+        total = tot_num*(tot_num-1)-42
+    elif type == "Edge":
+        total = tot_num*(tot_num-1)-22
+    else:
+        total = tot_num*(tot_num-1)
 
     above_cutoff = 0
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         result_list = list(reader)
 

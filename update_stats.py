@@ -3,13 +3,13 @@ import csv
 def update_stats(randlet, d_time, buffer, type):
     tot_num = 24 - len(buffer)
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21
+        total = tot_num*(tot_num-1)-42
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22
     else:
         total = tot_num*(tot_num-1)
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         letterlist_int = list(reader)
         for i in range(0,total):
@@ -33,7 +33,7 @@ def update_stats(randlet, d_time, buffer, type):
                     else:
                         pass
 
-    with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
+    with open("data/output_%s.csv"%(type), "w", newline="") as output:
         writer = csv.writer(output)
         for val in letterlist_int:
             writer.writerow(val)

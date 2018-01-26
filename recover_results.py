@@ -3,13 +3,13 @@ import csv
 def recover_results(buffer, type):
     tot_num = 24 - len(buffer)
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21
+        total = tot_num*(tot_num-1)-42
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22
     else:
         total = tot_num*(tot_num-1)
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as output:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as output:
         readerOUT = csv.reader(output)
         outputList = list(readerOUT)
 
@@ -38,7 +38,7 @@ def recover_results(buffer, type):
                     else:
                         pass
 
-        with open("data/output_test_%s.csv"%(type), "w", newline="") as output:
+        with open("data/output_%s.csv"%(type), "w", newline="") as output:
             writer = csv.writer(output)
             for val in outputList:
                 writer.writerow(val)

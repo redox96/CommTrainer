@@ -3,7 +3,7 @@ import csv
 def show_words(letterpair, buffer):
     tot_num = 24 - len(buffer)
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21
+        total = tot_num*(tot_num-1)-42
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22
     else:

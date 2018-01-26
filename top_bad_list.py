@@ -3,7 +3,7 @@ import csv
 def bad_list(buffer,type):
     tot_num = 24 - len(buffer)
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21
+        total = tot_num*(tot_num-1)-42
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22
     else:
@@ -11,7 +11,7 @@ def bad_list(buffer,type):
 
     topFiveTimes = [[0]*3 for i in range(total)]
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         topFive = list(reader)
         for i in range(total):
@@ -27,7 +27,7 @@ def bad_list(buffer,type):
 def top_list(buffer,type):
     tot_num = 24 - len(buffer)
     if type == "Corner":
-        total = tot_num*(tot_num-1)-21
+        total = tot_num*(tot_num-1)-42
     elif type == "Edge":
         total = tot_num*(tot_num-1)-22
     else:
@@ -35,7 +35,7 @@ def top_list(buffer,type):
 
     topFiveTimes = [[0]*3 for i in range(total)]
 
-    with open ("data/output_test_%s.csv"%(type), "r", newline="") as letterlist:
+    with open ("data/output_%s.csv"%(type), "r", newline="") as letterlist:
         reader = csv.reader(letterlist)
         topFive = list(reader)
         for i in range(total):
