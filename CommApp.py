@@ -135,6 +135,15 @@ class MyApp(Frame):
                 text_comm = show_comm(self.randlet,self.buffer,self.comm_type.get())
                 print(text_comm)
                 self.successlabel.configure(text = text_comm)
+                print(self.randlet, self.buffer)
+                self.words = show_words(self.randlet, self.buffer)
+                print(show_words(self.randlet,self.buffer))
+                self.words2 = show_words2(self.randlet, self.buffer)
+                self.words3 = show_words3(self.randlet, self.buffer)
+                print(self.words)
+                self.cutoff_output.configure(text = self.words)
+                self.cutoff_output2.configure(text = self.words2)
+                self.cutoff_output3.configure(text = self.words3)
             else:
                 pass
             self.result.set(event.time)
