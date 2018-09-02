@@ -54,6 +54,7 @@ class MyApp(Frame):
         self.letters = StringVar(value=None)
         self.hint_used = IntVar(value=None)
         self.learning = IntVar(value=0)
+        self.learnword = IntVar(value=0)
         self.randlet = StringVar(value=0)
 
         self.comm_type.set(NONE)
@@ -63,7 +64,10 @@ class MyApp(Frame):
             b.pack(side="left", pady=15, padx = 12)
         self.learning_button = Checkbutton(self.topframe, text = "L", variable = self.learning ,font = (None,15, "bold"), indicatoron = 0,
                                            command = self.learningmode)
+        self.learnword_button = Checkbutton(self.topframe, text = "W", variable = self.learnword ,font = (None,15, "bold"), indicatoron = 0,
+                                           command = self.learnword)
         self.learning_button.pack(pady=15, padx =20,ipadx = 4)
+        self.learnword_button.pack(pady=15, padx =20,ipadx = 4)
         self.successlabel=Label(self,font=(None,30),pady=30, text="Choose Comm Type", fg="Red")
         self.successlabel.pack()
         self.letterpair=Label(self,text="Letterpair", font=(None, 66))
@@ -114,6 +118,12 @@ class MyApp(Frame):
         else:
             print("unpressed")
 
+    def learnword(self):
+        if self.learnword.get() == 1:
+            print("pressed")
+        else:
+            print("unpressed")
+
     def createBindings(self):
         self.bind_all("<ButtonPress>",self.eventButtonPress)
         self.bind_all("<KeyPress>",self.eventKeyPress)
@@ -136,14 +146,17 @@ class MyApp(Frame):
                 print(text_comm)
                 self.successlabel.configure(text = text_comm)
                 print(self.randlet, self.buffer)
-                self.words = show_words(self.randlet, self.buffer)
-                print(show_words(self.randlet,self.buffer))
-                self.words2 = show_words2(self.randlet, self.buffer)
-                self.words3 = show_words3(self.randlet, self.buffer)
-                print(self.words)
-                self.cutoff_output.configure(text = self.words)
-                self.cutoff_output2.configure(text = self.words2)
-                self.cutoff_output3.configure(text = self.words3)
+                if self.learnword.get() == 1:
+                    self.words = show_words(self.randlet, self.buffer)
+                    print(show_words(self.randlet,self.buffer))
+                    self.words2 = show_words2(self.randlet, self.buffer)
+                    self.words3 = show_words3(self.randlet, self.buffer)
+                    print(self.words)
+                    self.cutoff_output.configure(text = self.words)
+                    self.cutoff_output2.configure(text = self.words2)
+                    self.cutoff_output3.configure(text = self.words3)
+                else:
+                    pass
             else:
                 pass
             self.result.set(event.time)
@@ -236,6 +249,17 @@ class MyApp(Frame):
                 text_comm = show_comm(self.randlet,self.buffer,self.comm_type.get())
                 print(text_comm)
                 self.successlabel.configure(text = text_comm)
+                if self.learnword.get() == 1:
+                    self.words = show_words(self.randlet, self.buffer)
+                    print(show_words(self.randlet,self.buffer))
+                    self.words2 = show_words2(self.randlet, self.buffer)
+                    self.words3 = show_words3(self.randlet, self.buffer)
+                    print(self.words)
+                    self.cutoff_output.configure(text = self.words)
+                    self.cutoff_output2.configure(text = self.words2)
+                    self.cutoff_output3.configure(text = self.words3)
+                else:
+                    pass
             else:
                 pass
 
