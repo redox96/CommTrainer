@@ -94,6 +94,10 @@ def create_output_file(letters, type):
         writer = csv.writer(output)
         for val in letters:
             writer.writerow(val)
+#    with open("data/average_%s.csv"%(type), "w", newline="") as buffers:
+#        writer = csv.writer(output)
+#        for val in letters:
+#            writer.writerow(val)
     with open("data/results_%s.csv"%(type), "a", newline="") as results:
         pass
 
