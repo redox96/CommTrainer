@@ -71,4 +71,4 @@ def update_stats(randlet, d_time, buffer, type):
     return [bufferbox_average,count+1] #return times_new for global average
 
 
-update_stats("BC", 3.55, ["A", "E", "R"], "Corner")
+#update_stats("BC", 3.55, ["A", "E", "R"], "Corner")
