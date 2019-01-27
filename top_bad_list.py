@@ -15,7 +15,7 @@ def bad_list(buffer,type):
         reader = csv.reader(letterlist)
         topFive = list(reader)
         for i in range(total):
-            topFiveTimes[i][1] = round(float(topFive[i][1]),2)
+            topFiveTimes[i][1] = round(float(topFive[i][5]),2)
             topFiveTimes[i][0] = topFive[i][0]
             topFiveTimes[i][2] = topFive[i][2]
         topFiveTimes.sort(key=lambda row: row[1:], reverse=True)

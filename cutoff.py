@@ -16,7 +16,7 @@ def cutoff_stats(cutoff, buffer, type):
         result_list = list(reader)
 
         for i in range(0,total-1):
-            if float(result_list[i][1]) > cutoff:
+            if float(result_list[i][5]) > cutoff:
                 above_cutoff = above_cutoff+1
             else:
                 continue
