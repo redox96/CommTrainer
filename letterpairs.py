@@ -6,12 +6,14 @@ def choose_type():
     types = ["Corner", "Edge", "Center", "Wing", "Tcenter", "Midge"]
     return types
 
+## 26.1.2019: changed edge buffer from DF to UF
+
 def buffer(type):
     if type == "Corner":
         buffers = ["A", "E", "R"]
         return buffers
     elif type == "Edge":
-        buffers = ["U", "K"]
+        buffers = ["C", "I"]
         return buffers
     elif type == "Center":
         buffers = ["A"]
@@ -23,7 +25,7 @@ def buffer(type):
         buffers = ["U", "K"]
         return buffers
     elif type == "Tcenter":
-        buffers = ["D"]
+        buffers = ["A"]
         return buffers
     else:
         pass
@@ -44,7 +46,7 @@ def twist(type):
 def flip(type):
     # for DF Buffer
     if type == "Edge":
-        flips = ["AQ", "BM", "CI", "DE", "ED", "FL", "GX", "HR", "IC", "JP", "LF", "MB", "NT", "OV", "PJ", "QA", "RH", "SW", "TN", "VO", "WS", "XG"]
+        flips = ["UK", "BM", "CI", "DE", "ED", "FL", "GX", "HR", "IC", "JP", "LF", "MB", "NT", "OV", "PJ", "QA", "RH", "SW", "TN", "VO", "WS", "XG"]
     else:
         flips = []
 
@@ -83,12 +85,13 @@ def create_letterpair(buffer, type):
     return(letters)
 
 
-#letter = create_letterpair(["K","U"],"Edge")
+#letter = create_letterpair(["C","I"],"Edge")
 
 
 #letter = create_letterpair(["A","E","R"])
 
 #_Test until 26.1.2018
+#_old until 26.1.2019
 def create_output_file(letters, type):
     with open("data/output_%s.csv"%(type), "w", newline="") as output:
         writer = csv.writer(output)
@@ -101,7 +104,7 @@ def create_output_file(letters, type):
     with open("data/results_%s.csv"%(type), "a", newline="") as results:
         pass
 
-#create_output_file(letter, "Corner")
+#create_output_file(letter, "Edge")
 
 # Random indexing
 def random_LP(buffer, letters):
