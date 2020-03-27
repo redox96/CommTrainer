@@ -5,7 +5,7 @@ def show_comm(letterpair, buffer, type):
     if type == "Corner":
         total = tot_num*(tot_num-1)-42
     elif type == "Edge":
-        total = tot_num*(tot_num-1)-22
+        total = tot_num*(tot_num-1)
     else:
         total = tot_num*(tot_num-1)
 

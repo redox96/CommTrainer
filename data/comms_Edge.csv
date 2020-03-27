@@ -72,10 +72,10 @@ BU;[M U2 M, U]
 UB;[U, M U2 M]
 BV;"[R' U R'; S, R2]"
 VB;"[R U R'; S, R2]"
-BW;"[r'M; U' R U, M2]<br />R am Schluss statt M2 r M'"
-WB;"[r'M; M2, U' R U]<br />R' am Anfang statt r' M M2<br />Am Schluss M' r"
+BW;"<div>U2 M' U2 M' U M U2 M U</div>[r'M; U' R U, M2]<br />R am Schluss statt M2 r M'"
+WB;"<div>U' M' U2 M' U' M U2 M U2</div>[r'M; M2, U' R U]<br />R' am Anfang statt r' M M2<br />Am Schluss M' r"
 BX;U' L' U' L U L U L U' L'
-XB;<div>L U L' U' L' U' L' U L U</div>
+XB;<div>L U L' U' L' U' L' U L U</div><br>R U: L' E L2 E' L'
 DF;"[U'; R' E R, U']"
 FD;"[U'; U',&nbsp;R' E R]"
 DG;[U, L E L']
@@ -106,8 +106,8 @@ DT;[U, L E2 L']
 TD;[L E2 L', U]
 DU;[M U2 M, U']
 UD;[U', M U2 M]
-DV;U R U R' U' R' U' R' U R
-VD;R' U' R U R U R U' R' U'
+DV;U R U R' U' R' U' R' U R<br>L U': R' E' R2 E R'
+VD;R' U' R U R U R U' R' U'<br>LU': R E R2 E' R
 DW;"<div>[U; U, ""M' U2 M' ""]</div>U2 M' U2 M' U' M U2 M U'"
 WD;"<div>[U; ""M' U2 M' "", U]</div>U M' U2 M' U M U2 M U2"
 DX;"[L U' L; S, L2]"
@@ -170,7 +170,7 @@ KP;"[M'; U R U', M']"
 PK;"[M'; M', U R U']"
 QR;[U L U', M']
 RQ;[M', U L U']
-QS;U M' U' M U2 M U M' U
+KS;U M' U' M U2 M U M' U
 SK;<div>U' M U' M' U2 M' U M U'</div>
 KT;[U' R' U, M']
 TK;[M', U' R' U]
@@ -180,3 +180,283 @@ KW;[D: R F R', S']
 WK;[D: S', R F R']
 KX;[U L2 U', M']
 XK;[M', U L2 U']
+EF;[S: U', R' E R]
+FE;[S: R' E R, U']
+EG;S': D' M D2 M' D'
+GE;S': D M D2 M' D
+EH;[S: U', R E' R']
+HE;[S: R E' R', U']
+EJ;[S' U: L' E' L2 E L']
+JE;[S' U: L E' L2 E L]
+EL;r U r' E r U r' E' r U2 r'
+LE;<div>r U2 r' E r U' r' E' r U' r'</div>
+EM;[M: U M' U2 M U]
+ME;[M: U' M' U2 M U']
+EN;[r': U M' U2 M U]
+NE;[r': U' M' U2 M U']
+EO;[R' F: R S R2 S' R]
+OE;[R' F: R' S R2 S' R']
+EP;[RM: U M' U2 M U]
+PE;[RM: U' M' U2 M U']
+ER;[U' l: U M' U2 M U]
+RE;[U' l: U' M' U2 M U']
+ES;"M'; (U M' U M)*2"
+SE;"M'; (M' U' M U')*2"
+TE;[l': E, L U' L']
+ET;[l': L U' L', E]
+UE;[M: u M' u2 M' u]
+EU;[M: u' M u2 M u']
+MU;[M: u M' u2 M' u]
+UM;[M: u' M' u2 M' u']
+EV;"[x L2; L' U' L, E']<div>r U' L E' L' U L E Lr'</div>"
+VE;"[x L2; E', L' U' L]<div>rL E' L' U' L E L' U r'</div>"
+EW;[D: L F' L', S]
+WE;[D: S, L F' L']
+EX;[L F' L', S]
+XE;[S, L F' L']
+FM;[L' M: U M' U2 M' U]
+MF;[L' M: U' M' U2 M' U']
+GM;[U: L F' L', S]
+MG;[U: S, L F' L']
+HM;[l: U M' U2 M' U]
+MH;[l: U' M' U2 M' U']
+JM;[R' U' E': R E R2 E' R]
+MJ;[R' U' E': R' E R2 E' R']
+LM;[S U': R' E R2 E' R']
+ML;[S U': R E R2 E' R]
+MN;[S': U, L' E L]
+NM;[S': L' E L, U]
+MO;[F': R E R2 E' R]
+OM;[F': R' E R2 E' R']
+MP;[S': U, L E' L']
+PM;[S': L E' L', U]
+MR;[M': U, R E' R']<br />am Schluss r' statt MR
+RM;[M': R E' R', U]<br />am Anfang r statt M'R
+MS;M': (U' M' U' M)*2
+SM;M': (M' U M U)*2
+MT;[U r': U' M' U2 M U']
+TM;[U r': U M' U2 M U]
+MV;[R' F R, S']
+VM;[S', R' F R]
+MW;[D': R' F R, S']
+WM;[D': S', R' F R]
+MX;"[x R2; R U R', E]<div>l' U R' E R U' R' E' Rl</div>"
+XM;"[x R2; E, R U R']<div>R'l' E R U R' E' R U' l</div>"
+FS;[U' M: U, R' E R]<br />r am Schluss
+SF;[U' M: R' E R, U]<br />U' r am Anfang
+GS;[U: S', R' D R]
+SG;[U: R' D R, S']
+HS;[U' M: U, R E' R']
+SH;[U' M: R E' R', U]
+JS;"[U2; M, U R U']"
+SJ;"[U2; U R U', M]"
+LS;"[U2; M, U' L' U]"
+SL;"[U2; U' L' U, M]"
+NS;[U M: U', L' E L]
+SN;[U M: L' E L, U']
+OS;[U' x': R U R', E']
+SO;[U' x': E', R U R']
+PS;[U M: U', L E' L']
+SP;[U M: L E' L', U']
+RS;"[U; U M U', L]"
+SR;"[U; L, U M U']"
+ST;"[U'; R', U' M U]"
+TS;"[U'; U' M U, R']"
+SU;[D': R F R', S']
+US;[D': S', R F R']
+SV;"[U'; R2, U' M U]"
+VS;"[U'; U' M U, R2]"
+SX;"[U; L2, U M U']"
+XS;"[U; U M U', L2]"
+FW;"[M; U' L' U, M2]"
+WF;"[M; M2, U' L' U]"
+GW;[U: S', L B' L']
+WG;[U: L B' L', S']
+HW;"[M; U' L U, M2]"
+WH;"[M; M2, U' L U]"
+JW;[UD: L E' L2 E L]
+WJ;[UD: L' E' L2 E L']
+LW;[D'U': R' E R2 E' R']
+WL;[D'U': R E R2 E' R]
+NW;"[M; U R' U', M2]"
+WN;"[M; M2, U R' U']"
+OW;[U': R' B R, S]<br>inv!
+WO;[U': S, R' B R]
+PW;"[M; U R U', M2]"
+WP;"[M; M2, U R U']"
+RW;[U'D': R E' R2 E R]
+WR;[U'D': R' E' R2 E R']
+TW;[DU: L' E L2 E' L']
+WT;[DU: L E L2 E' L]
+UW;D2 M D2 M'<div>u2 M' u2 M'</div>
+WU;M D2 M' D2<div>M u2 M u2</div>
+VW;[U R2: U' M U2 M' U']
+WV;[U R2: U M U2 M' U]
+WX;[U' L2: U' M U2 M' U']
+XW;[U' L2: U M U2 M' U]
+FG;[z: U, L E' L']
+GF;[z: L E' L', U]
+FH;"<div>[z U'; U2, L E' L']</div>[r U: r E r2 E r]"
+HF;"[z U'; L E' L', U2]"
+FJ;[E, R U' R']
+JF;[R U' R', E]
+FN;[r U: R' E R2 E' R']
+NF;[r U: R E R2 E' R]
+FO;[M' U: R' E R2 E' R']<div>[S: R' E R, U']</div>
+OF;[M' U: R E R2 E' R]<div>[S: U', R' E R]</div>
+FP;UE l' E' l2 E' l' E'U'
+PF;U'E' r E r2 E r EU
+FR;[E', L U L']
+RF;[L U L', E']
+FT;"[R'; R' E R, U']"
+TF;"[R'; U', R' E R]"
+FU;"[U R' F2; R S R', F]"
+UF;"[U R' F2; F, R S R']"
+FV;[U'E': R E' R2 E R]
+VF;[U'E': R' E' R2 E R']
+FX;[UE: L E' L2 E L]
+XF;[UE: L' E' L2 E L']
+GH;[z: L E' L', U']
+HG;[z: U', L E' L']
+GJ;"[L'; E2, L U L']"
+JG;"[L'; L U L', E2]"
+GL;[S' U': R E R2 E' R]
+LG;[S' U': R' E R2 E' R']
+GN;[L F': E, L2]
+NG;[L F': L2, E]
+GO;[R' F: R' S' R2 S R']
+OG;[R' F: R S' R2 S R]
+GP;[M' U': L' E' L2 E L']
+PG;[M' U': L E' L2 E L]
+GR;[S' U': R' E' R2 E R']
+RG;[S' U': R E' R2 E R]
+GT;[D: U' R' U, M']
+TG;[D: M', U' R' U]
+GU;[L F: E', L2]
+UG;[L F: L2, E']
+GV;[L' F' L, S]
+VG;"[S,&nbsp;L' F' L]"
+HJ;"[R; R E' R', U']"
+JH;"[R; U', R E' R']"
+HL;[E, L' U L]
+LH;[L' U L, E]
+HN;[x' U M' U2 M U]
+NH;[x' U' M' U2 M U']
+HO;[R' F: R2, E']<br>S' setup
+OH;[R' F: E', R2]
+HP;[lR: U M' U2 M U]
+PH;[lR: U' M' U2 M U']
+HT;[E', R' U' R]
+TH;[R' U' R, E']
+HU;[y' R' E R2 E' R']
+UH;[y' R E R2 E' R]
+HV;[u': R' E' R2 E R']
+VH;[u': R E R2 E' R]
+HX;[u: L' E' L2 E L']
+XH;[u': L E' L2 E L]
+JL;[R' U': R E R2 E' R]
+LJ;[R' U': R' E R2 E' R']
+JO;[S U: L E' L2 E L]
+OJ;[S U: L' E' L2 E L']
+JR;[R' U': R' E' R2 E R']
+RJ;[R' U': R E' R2 E R]
+JT;[U: l' E' l2 E' l']
+TJ;[U: l E l2 E l]
+JU;[UR: U M' U2 M U]
+UJ;[UR: U' M' U2 M U']
+JV;[UD2: L E' L2 E L]
+VJ;[UD2: L' E' L2 E L']<div>U2 R U' R' U' R' U' R U R U'</div>
+JX;[U: L E' L2 E L]
+XJ;[U: L' E' L2 E L']
+LN;"[L'; U, L' E L]"
+NL;"[L'; L' E L, U]"
+LO;"[R E; R' U' R, E]"
+OL;"[R E; E, R' U' R]"
+LP;[L' U L, E']
+PL;[E', L' U L]
+LR;[U': r E r2 E r]
+RL;[U': r' E' r2 E' r']
+LT;[R U': R' E R2 E' R']
+TL;[R U': R E R2 E' R]
+LU;[U' L': U' M' U2 M U']
+UL;[U' L': U M' U2 M U]
+LV;[U': R' E R2 E' R']
+VL;[U': R E R2 E' R]
+LX;[U'D2: R' E R2 E' R']
+XL;[U'D2: R E R2 E' R]
+NO;[z': U, R' E R]
+ON;[z': R' E R, U]
+NP;[l' U': l E l2 E l]
+PN;[l' U': l' E' l2 E' l']
+NR;[E, L U L']
+RN;[L U L', E]
+NU;[F': E, R2]
+UN;[F': R2, E]
+NV;[u': R E' R2 E R]
+VN;[u': R' E' R2 E R']
+NX;[u: L E' L2 E L]
+XN;[u: L' E' L2 E L']
+OP;[z': U', R' E R]
+PO;[z': R' E R, U']
+OR;"[R' E'; R U' R', E']"
+RO;"[R' E'; E', R U' R']"
+OT;[D': U' R' U, M']
+TO;[D': M', U' R' U]
+OU;[R' F': E, R2]
+OU;[R' F: E, R2]
+OX;[R F R', S']
+XO;[S', R F R']
+PR;"[L; L E' L', U]"
+RP;"[L; U, L E' L']"
+PT;[E, R' U' R]
+TP;[R' U' R, E]
+PU;[R2 F': E, R2]
+UP;[R2 F': R2, E]
+PV;[U'E': R E R2 E' R]
+VP;[U'E': R' E R2 E' R']
+PX;[UE: L' E L2 E' L']
+XP;[UE: L E L2 E' L]
+RT;[R U': R E' R2 E R]
+TR;[R U': R' E' R2 E R']
+RU;[U' L: U' M' U2 M U']
+UR;[U' L: U M' U2 M U]
+RV;[U': R E' R2 E R]
+VR;[U': R' E' R2 E R']
+RX;U' L' U' L' U L U L U L'<br>U'D L setup
+XR;L U' L' U' L' U' L U L U<br>U'D L setup
+TU;[U R': U M' U2 M U]
+UT;[U R': U' M' U2 M U']
+TV;U R U R U' R' U' R' U' R
+VT;R' U R U R U R' U' R' U'
+TX;[U: L' E L2 E' L']
+XT;[U: L E L2 E' L]
+UV;"[R' F; R S' R', F2]"
+VU;"[R' F; F2, R S' R']"
+UX;[l' U: R' E R, U2]
+XU;[l' U: U2, R' E R]
+VX;D M D2 M' D
+XV;D' M D2 M' D'
+JN;[R U' R', E']
+NJ;[E', R U' R']
+AQ;flip
+QA;flip
+BM;flip
+MB;flip
+DE;flip
+ED;flip
+FL;flip
+LF;flip
+GX;flip
+XG;flip
+HR;flip
+RH;flip
+JP;flip
+PJ;flip
+KU;flip
+UK;flip
+NT;flip
+TN;flip
+OV;flip
+VO;flip
+SW;flip
+WS;flip

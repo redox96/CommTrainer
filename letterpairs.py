@@ -44,9 +44,9 @@ def twist(type):
 #twist("Corner")
 
 def flip(type):
-    # for DF Buffer
+    # for UF Buffer
     if type == "Edge":
-        flips = ["UK", "BM", "CI", "DE", "ED", "FL", "GX", "HR", "IC", "JP", "LF", "MB", "NT", "OV", "PJ", "QA", "RH", "SW", "TN", "VO", "WS", "XG"]
+        flips = ["UK", "AQ", "KU", "BM", "DE", "ED", "FL", "GX", "HR", "JP", "LF", "MB", "NT", "OV", "PJ", "QA", "RH", "SW", "TN", "VO", "WS", "XG"]
     else:
         flips = []
 
